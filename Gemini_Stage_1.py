@@ -15,7 +15,7 @@ def save_text_as_pdf(text, output_path):
     pdf.output(output_path)
 
 # Path to the PDF file
-file_path = r'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\(1) JYLEE_TPRecruitmentExtensive.pdf'
+file_path = r'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\(1) JYLEE_TPRecruitmentExtensive.pdf'
  
 # Creating a PDF reader object
 reader = PdfReader(file_path)

@@ -45,8 +45,6 @@ for i in range(start_page, end_page):
     # Append extracted text to the variable
     extracted_text += text
 
-
-
 # Construct a prompt for text summarization
 prompt = f"Summarize the extracted text: {extracted_text}"
 
