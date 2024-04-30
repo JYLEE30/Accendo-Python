@@ -1,3 +1,4 @@
+# HuggingFace Falconsai Summarization Code (Executable)
 import PyPDF2
 from transformers import pipeline
 
@@ -41,7 +42,7 @@ with open(output_file, "w") as f:
 print(f"Summaries saved to {output_file}")
 
 
-# HuggingFace Falconsai Summarization Sample Code
+# HuggingFace Falconsai Summarization Sample Code (with Error)
 '''
 from transformers import pipeline
 
