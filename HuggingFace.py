@@ -4,22 +4,24 @@ from transformers import pipeline
 # Initialize the summarization pipeline
 summarizer = pipeline("summarization", model="t5-small")
 
-# Function to extract text from a PDF file
-def extract_text_from_pdf(pdf_path):
+# Function to extract text from a PDF file and print it page by page
+def extract_and_print_text_from_pdf(pdf_path):
     text_per_page = []
     with open(pdf_path, "rb") as f:
         reader = PyPDF2.PdfReader(f)
         for page_num in range(len(reader.pages)):
             page = reader.pages[page_num]
             text = page.extract_text()
-            text_per_page.append(text)
-    return text_per_page
+            print(f"Page {page_num + 1} Text:")
+            print(text)
+            text_per_page.append(text)  # Append extracted text to the list
+    return text_per_page  # Return the list of extracted text
 
 # Path to the PDF file
 pdf_path = r'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\(1) JYLEE_TPRecruitmentExtensive.pdf'
 
 # Extract text from each page of the PDF
-text_per_page = extract_text_from_pdf(pdf_path)
+text_per_page = extract_and_print_text_from_pdf(pdf_path)
 
 # Summarize each page separately
 summaries = []
@@ -34,7 +36,6 @@ for page_num, text in enumerate(text_per_page):
 output_file = "summaries.txt"
 with open(output_file, "w") as f:
     for page_num, summary in enumerate(summaries):
-        f.write(f"Summary of Page {page_num + 1}:\n")
         f.write(summary + "\n\n")
 
 print(f"Summaries saved to {output_file}")
