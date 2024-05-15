@@ -1,0 +1,30 @@
+Access PDF shows the code to:
+    -   Import libraries needed for PDF
+    -   Select PDF file
+    -   Read PDF text
+    -   Extract PDF text as chuncks / section by page (Leave a line for each page)
+    -   Store extracted chuncks in a chunk_list
+    -   Print chunk_list chunck by chunck with seperators line and label the chunck with number
+    -   Concat the chunks in the chunk_list as one chunk in sequence (Leave a line for eack chunk)
+    -   Print concated chunk with no labels
+    -   Construct output path
+    -   Save concated chunk as PDF in the constructed output path
+
+Stage 1 include:
+    -   Import libraries needed for model
+    -   Setup API Key
+    -   Setup basic summarize prompt
+    -   Modify prefixed code to connect the model
+    -   Prompt the model to summarize in multi-list format
+        + Attach the concated chunk
+    -   Print summaried content
+    #   Attach model Source Code as comment
+
+Stage 2 include:
+    -   Customize the prompt (must mention in multi-list form), might need a loop
+    -   Code the program to summarize chunk by chunk using loop, each loop will contain one specific prompt
+        ! Must provide the model the concated chunk (full context) as reference to summarize each chunk base on the full context to increase the precision of the summarization process
+    -   Save the summarized chunck to a new chunck_list
+    -   Print summarized chunk in new chunck list one by one
+    -   Concate the chunks in the new chunk_list as one chunk in sequence (Leave a line for eack chunk)
+    -   Save the new concated chunk as PDF in the constructed output path

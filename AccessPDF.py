@@ -1,7 +1,7 @@
-import PyPDF2
-from fpdf import FPDF
 import tkinter as tk
 from tkinter import filedialog
+import PyPDF2
+from fpdf import FPDF
 import datetime
 import os
 import openai
