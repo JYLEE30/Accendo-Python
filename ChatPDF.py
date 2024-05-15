@@ -4,7 +4,7 @@ from fpdf import FPDF
 from datetime import datetime
 
 # Set up Generative AI API key
-headers = {'x-api-key': 'sec_j2XeIF23GoFGd54IawzFiNVqTkGTP3f3'}
+headers = {'x-api-key': ''}
 
 # Select PDF
 def select_file():
@@ -55,21 +55,22 @@ def summarize_data(source_id):
             {
                 "role": "user",
                 "content": """ 
-                                Execute the following command in order:
-                                Retrieve the Name of the Report.
-                                Retrieve the Candidate Name.
-                                Skip "Introduction" page.
-                                Retrieve the Overall Score.
-                                Retrieve the name and score of each quality in markdown format.
-                                Retrieve the name of each behaviour tendencies under the leadership quality. Analyze and give a short summary on their “About the Candidate:” and "Implications" section in 1 sentence. 
-                                Retrive the candidate's 2 major componenets in agility and summarize their "About You:" section including the three breakdown under cognitive ability (Inductive-Logical Reasoning, Numerical Reasoning, Verbal Reasoning) and then summarize each of their "About You:" sections. Retrieve the score of the three breakdowns too.
-                                Summarize the candidate's agility (Major componenets) for all the 2 key aspects with brief definitions.
-                                Summarize the candidate's cultural fit (Preference) for all the 3 key aspects with brief definitions.
-                                Retrieve the candidate's 3 primary motivators (Most motivated by:) and 3 demotivators (Least motivated by:). 
-                                Retrieve the candidate's 3 (Most likely) Work Styles and 3 (Least likely) Work Styles.
-                                Briefly explain the purpose of the CBI Guide. 
-                                Retrieve one question most tailored to the candidate's quality from the Suggested Questions for each of the quality in the CBI section.
-                                Skip "About Us" page.
+                                Summarize the extracted text in order: 
+
+                                In Page 1, retrieve the name of the REPORT, name of the Candidate and the Overall Score. 
+                                Exclude Page 2.
+                                In Page 3, retrieve all the name and score of each quality in markdown format.
+                                In Page 4 to 7, retrieve the name of the quality. Then, analyze and give a very short summary on the "About the Candidate: …" section including the implications section.
+                                In Page 8, retrieve the name of each quality and give a very short summary on the "About You: …" section of each quality one by one. Then, retrieve all information in the "Score Breakdown: …" section and show the Name of each Breakdown with the score, give a short summary on the definition  and  the "About You: …" section of each breakdown.
+                                In Page 9, retrieve all information in the "Score Breakdown: …" section and show the Name of each Breakdown with the score, give a short summary on the definition  and  the "About You: …" section of each breakdown.
+                                In Page 10, retrieve the name of each sub quality under the main quality and summarize each of the sub qualities’ definitions one by one. Then, interpret the persona of the Candidate and give a short summary.
+                                In Page 11, retrieve the main tittle. Then, retrieve the candidate's 3 primary motivators (Most motivated by:) and 3 demotivators (Least motivated by:).
+                                In Page 12, retrieve the main tittle. Then, list the candidate's first 3 behavioural preferences as (Most likely:) and last 3 behavioural preferences as (Least likely).
+                                In Page 13, retrieve the information and summarize it to explain CBI in a short paragraph not more than 30 words.
+                                In Page 14 to 17, retrieve the main tittle, analyze all the question and pick one most important question to ask the Candidate regarding the main tittle of that page.
+                                Exclude last page.
+                                Analyze all information and give 3 Hogan Derailers. 
+                                Make sure the summarized content can fit in one page.
                             """
             }
         ]

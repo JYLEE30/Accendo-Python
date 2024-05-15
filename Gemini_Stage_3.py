@@ -2,25 +2,18 @@ import google.generativeai as genai
 from PyPDF2 import PdfReader
 from fpdf import FPDF
 import datetime
+import tkinter as tk
+from tkinter import filedialog
 
 # Set up Generative AI API
-genai.configure(api_key="AIzaSyCsDH3BueKT9Eu-gPnne7I7wzaQqqgoCVU")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
 
-# Function to save text as a PDF
-def save_text_as_pdf(text, output_path):
-    pdf = FPDF()
-    pdf.add_page()
-    pdf.set_font("Arial", size=8)
-    
-    # Encode the text using UTF-8
-    encoded_text = text.encode('latin-1', 'replace').decode('latin-1') 
-    
-    pdf.multi_cell(0, 5, encoded_text)
-    pdf.output(output_path)
-
-# Path to the PDF file
-file_path = r'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\(1) JYLEE_TPRecruitmentExtensive.pdf'
+# Open a file dialog to select a PDF file.
+# Returns the file path if a file is selected, otherwise returns None.
+root = tk.Tk()
+root.withdraw()
+file_path = filedialog.askopenfilename(title="Select a PDF file", filetypes=[("PDF Files", "*.pdf")])
  
 # Creating a PDF reader object
 reader = PdfReader(file_path)
@@ -58,7 +51,8 @@ Summarize the extracted text: {extracted_text}
 * In Page 13, retrieve the information and summarize it to explain CBI in a short paragraph not more than 30 words.
 * In Page 14 to 17, retrieve the main tittle, analyze all the question and pick one most important question to ask the Candidate regarding the main tittle of that page.
 * Exclude last page.
-
+* Analyze all information and give 3 Hogan Derailers. 
+* Make sure the summarized content can fit in one page.
 """
 
 # Call the Generative AI model with the prompt
@@ -76,6 +70,15 @@ timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
 # Set the desired output path with the timestamp appended to the file name
 output_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\Executive_Report_{timestamp}.pdf'
+
+# Function to save text as a PDF
+def save_text_as_pdf(text, output_path):
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", size=8)
+    encoded_text = text.encode('latin-1', 'replace').decode('latin-1') # Encode the text using UTF-8
+    pdf.multi_cell(0, 5, encoded_text)
+    pdf.output(output_path)
 
 # Save the generated summary as a PDF
 save_text_as_pdf(summary, output_path)

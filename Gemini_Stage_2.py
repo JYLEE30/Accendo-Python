@@ -4,7 +4,7 @@ from fpdf import FPDF
 import datetime
 
 # Set up Generative AI API
-genai.configure(api_key="AIzaSyCsDH3BueKT9Eu-gPnne7I7wzaQqqgoCVU")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-pro')
 
 # Function to save text as a PDF

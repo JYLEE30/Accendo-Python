@@ -1,5 +1,6 @@
 # HuggingFace Falconsai Summarization Code with prompt (Executable but not as desired)
 import PyPDF2
+from fpdf import FPDF
 from transformers import pipeline
 
 # Initialize the summarization pipeline
@@ -41,10 +42,17 @@ for page_num, text in enumerate(text_per_page):
     summary = summarize_with_prompt(text, prompt)
     summaries.append(summary)
 
-# Save the summaries to a text file
-output_file = "summaries_with_prompt.txt"
-with open(output_file, "w") as f:
-    for page_num, summary in enumerate(summaries):
-        f.write(summary + "\n\n")
+# Save as PDF
+pdf = FPDF()
+pdf.add_page()
+pdf.set_font("Arial", size=8)
+    
+# Encode the text using UTF-8
+encoded_text = summary.encode('latin-1', 'replace').decode('latin-1') 
+pdf.multi_cell(0, 5, encoded_text)
 
-print(f"Summaries with prompt saved to {output_file}")
+# Save the PDF
+pdf_file_path = r"C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\Summarized_Report.pdf"
+pdf.output(pdf_file_path)
+
+print("PDF saved successfully.")
