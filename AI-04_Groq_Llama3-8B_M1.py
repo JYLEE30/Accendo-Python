@@ -89,27 +89,27 @@ def generate_summary():
                     About You: Lee is somewhat able to process new and complex information accurately, possessing an average speed of learning and problem solving, compared to others.
 
                     Scores Breakdown: Cognitive Ability
-                    Inductive-Logical Reasoning
+                    Inductive-Logical Reasoning (5/10)
                     About You: Lee is able to analyse and recognise specific trends, patterns or information to generate a general conclusion from it, but may need more time as the complexity increases.
                     
-                    Numerical Reasoning
+                    Numerical Reasoning (3/10)
                     About You: Lee may require more time to process new and complex numerical information accurately, as well as retrieving and identifying relevant information to draw logical conclusions.
                     
-                    Verbal Reasoning
+                    Verbal Reasoning (7/10)
                     About You: Lee is highly eficient in processing new and complex verbal information accurately, retrieving and identifying relevant information to draw logical conclusions.
 
                     Cultural Fit
                     An alignment of employees' preferences, interests and motives with the organisation's value system is an integral part in ensuring both employee satisfaction and business productivity. 
 
-                    Purpose Driven 3/10
+                    Purpose Driven
                     Definition: Internal motivation to find meaning in the work while strongly identifying to the organisation's mission to achieve ambitious goals.
                     Highly driven in finding meaning in work, while identifying with the organisation's overall mission and vision. Does what is necessary to meet targets and achieve what is expected while completing tasks at own pace. Tends to lose energy and commitment to achieve quality results.
 
-                    Performance Oriented 5/10
+                    Performance Oriented
                     Definition: Sets challenging targets and drives performance to achieve high quality results.
                     Role models setting high targets and taking on challenges to achieve more with a sense of urgency to obtain results in the most efficient way. Excels in demonstrating energy and commitment to achieve high quality results. Prefers to finish a task with less regard on the moral side of things, feels that ethics and morales are irrelevant at work.
 
-                    Principles Led 7/10
+                    Principles Led
                     Definition: Holds self-responsible for upholding integrity and the values of the organisation.
                     Always strives to ensure work delivered is moral and works with a clear conscience. 
 

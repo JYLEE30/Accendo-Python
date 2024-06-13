@@ -1,7 +1,11 @@
 # Import required libraries
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import simpledialog, filedialog
 import fitz  # PyMuPDF
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+from math import pi
 import google.generativeai as genai
 import datetime
 from fpdf import FPDF
@@ -19,37 +23,129 @@ def select_pdf_file():
 def extract_text_from_pdf(file_path, start_page=0, end_page=None):
     document = fitz.open(file_path)
     if end_page is None:
-        end_page = len(document)
+        end_page = len(document) - 1  # Exclude the last page
+    else:
+        end_page = min(end_page, len(document) - 1)  # Exclude the last page if end_page exceeds the number of pages
     extracted_text = ""
     for i in range(start_page, end_page):
         page = document.load_page(i)  # Load the page
         text = page.get_text()  # Extract text
         extracted_text += text + "\n\n"
+    document.close()  # Close the document after extraction
     return extracted_text
+
+# Replace special characters that can't be encoded in 'latin-1'
+def replace_special_characters(text):
+    replacements = {
+        '\ufb01': 'fi',
+        '\ufb02': 'fl',
+        # Add more replacements as needed
+    }
+    for orig, repl in replacements.items():
+        text = text.replace(orig, repl)
+    return text
 
 # Connect & Generate summary using Generative AI.
 def generate_summary(extracted_text):
-    prompt = f"""
-    Summarize the context provided section by section exactly following the prompt below and don't do anything not asked. Also, arange your response in a way that is easy to read, clean and save spaces the most:
-    Retrieve the name of the report, the candidate name, the candidate overall score and candidate score in the 3 main element.
-    Retrieve all scores in quickview.
-    Retrieve the most motivated by, least motivated by and the three work styles with the highest score of the candidate each in a line.
-    Give a very short summary for each of the 4 element in the leadership section regarding their comment in the about the candidate and implications and retrieve 1 most important question to ask the candidate from the CBI section for each of the 4 element in the leadership section and the CBI section.
-    For each of the 2 element in the agility section, give a very short summary on their about you comments and for each of the 3 elements in the cognitive agility breakdown, retrieve the scores and give a short summary on the definition and the about you comments of each breakdown.
-    For each of the 3 element in the cultural fit section, give a short summary on their definition and comment. 
-    Analyze and provide 3 possible derailers of the candidate with a very short explanation.
+    
+    # Define specific prompts for each part (customize as needed)
+    prompt = """
+        Extract the following information:
+        - Report name
+        - Candidate's name
+        - Overall score
+        - 3 main elements and their scores
+        - Sub-elements of the 3 main elements and their scores in 'Quickview'
+        - Most motivated by
+        - Least motivated by
+        - 3 work styles with highest scores
 
-    {extracted_text}
+        Format the output as below:
+        {Report Name}
+        Candidate Name: {Candidate Name}
+        Overall Score: {Overall Score}
+
+        {Main Element 1}: {Main Element 1's Score}
+                + {Main Element 1's sub-element 1}: {Main Element 1's sub-element 1 Score}
+                + {Main Element 1's sub-element 2}: {Main Element 1's sub-element 2 Score}
+                + {Main Element 1's sub-element 3}: {Main Element 1's sub-element 3 Score}
+                + {Main Element 1's sub-element 4}: {Main Element 1's sub-element 4 Score}
+        {Main Element 2}: {Main Element 2's Score}
+                + {Main Element 2's sub-element 1}: {Main Element 2's sub-element 1 Score}
+                + {Main Element 2's sub-element 2}: {Main Element 2's sub-element 2 Score}
+        {Main Element 3}: {Main Element 3's Score}
+                + {Main Element 3's sub-element 1}: {Main Element 3's sub-element 1 Score}
+                + {Main Element 3's sub-element 2}: {Main Element 3's sub-element 2 Score}
+                + {Main Element 3's sub-element 3}: {Main Element 3's sub-element 3 Score}
+                
+        Most motivated by: {Most motivated by 1, Most motivated by 2, Most motivated by 3}
+        Least motivated by: {Least motivated by 1, Least motivated by 2, Least motivated by 3}
+
+        Preferable work styles: {Work style 1, Work style 2, Work style 3}
+
+        For each of the sub-elements in the {Main Element 1} section:
+        - Summarize the comment in the "About the Candidate" section and the implications as a single paragraph in less than or equal to 36 words.
+        - Retrieve only the most important main question to ask the candidate from the CBI section for each of the sub-elements in the {Main Element 1} section, excluding sub-questions.
+
+        Format the output as follows:
+        {Main Element 1}
+        {Main Element 1's sub-element 1}: {Summary of Comment in the "About the Candidate" Section and Implications}
+        CBI Question: {Most Important Main Question from CBI Section}
+                    
+        {Main Element 1's sub-element 2}: {Summary of Comment in the "About the Candidate" Section and Implications}
+        CBI Question: {Most Important Question from CBI Section}
+                    
+        {Main Element 1's sub-element 3}: {Summary of Comment in the "About the Candidate" Section and Implications}
+        CBI Question: {Most Important Question from CBI Section}
+                    
+        {Main Element 1's sub-element 4}: {Summary of Comment in the "About the Candidate" Section and Implications}
+        CBI Question: {Most Important Question from CBI Section}
+
+        For each of the sub-elements in the {Main Element 2} section:
+        - Summarize the comment in the "About You" section in less than or equal to 30 words.
+
+        For each of the 3 breakdowns in the {Main Element 2's sub-element 2} Breakdown:
+        - Retrieve their scores and Summarize their definition and comment in the "About You" section as a single paragraph in less than 22 words.
+
+        Format the output as follows:
+        {Main Element 2}
+        {Main Element 2's sub-element 1}: {Summary of "About You" Comments}
+                
+        {Main Element 2's sub-element 2}: {Summary of "About You" Comments}. {Main Element 2's sub-element 2} breakdown:
+        {Breakdown 1}  ({Breakdown 1's Score}): {Summary of Definition and "About You" Comments}
+        {Breakdown 2}  ({Breakdown 2's Score}): {Summary of Definition and "About You" Comments}
+        {Breakdown 3}  ({Breakdown 3's Score}): {Summary of Definition and "About You" Comments}
+
+        For each of the sub-elements in the {Main Element 3} section:
+        - Retrieve their scores.
+        - Summarize their definition and comment as a single paragraph in less than or equal to 28 words.
+
+        Format the output as follows:
+        {Main Element 3}
+        {Main Element 3's sub-element 1} ({Main Element 3's sub-element 1 Score}): {Summary of Definition and Comment}
+        {Main Element 3's sub-element 2} ({Main Element 3's sub-element 2 Score}): {Summary of Definition and Comment}
+        {Main Element 3's sub-element 3} ({Main Element 3's sub-element 3 Score}): {Summary of Definition and Comment}
+
+        Analyze the full document context to suggest 3 possible derailers of the candidate with a brief description in less than or equal to 28 words.
+
+        Format the output as follows:
+        Possible derailers
+        1. {Derailer 1 Title}: {Brief Description}
+        2. {Derailer 2 Title}: {Brief Description}
+        3. {Derailer 3 Title}: {Brief Description}
     """
+    
+    # Set up Generative AI API
     genai.configure(api_key="AIzaSyCsDH3BueKT9Eu-gPnne7I7wzaQqqgoCVU")
-    model = genai.GenerativeModel('gemini-1.5-pro-latest')
-    response = model.generate_content(prompt)
-    summary = response.text
-    return summary
+    model = genai.GenerativeModel('gemini-1.5-flash-latest')
+    full_prompt = f"Full document context:\n\n{extracted_text}\n\n{prompt}"
+    response = model.generate_content(full_prompt)
+
+    return response.text
 
 # Function to save text as a PDF
-def save_text_as_pdf(text, output_path):
-    
+def save_text_as_pdf(summary, output_path):
+
     # Create an instance of FPDF class with A4 page size
     pdf = FPDF(orientation='P', unit='mm', format='A4')
     pdf.add_page()
@@ -62,17 +158,17 @@ def save_text_as_pdf(text, output_path):
     pdf.set_auto_page_break(auto=True, margin=15)
     
     # Replace leading asterisks and hashes with dashes or remove them
-    text = re.sub(r'\#\#\# (.*)', r'\1', text)  # Remove '###'
-    text = re.sub(r'\#\# (.*)', r'\1', text)  # Remove '##'
-    text = re.sub(r'\* \**', '', text)  # Remove '* **'
-    text = re.sub(r'\*\*', '', text)  # Remove '**'
-    text = re.sub(r'\* ', '', text)  # Remove '* '
-    text = re.sub(r'\*', '', text)  # Remove '*'
-    text = re.sub(r':\**', ': ', text)
-    text = re.sub(r':\*', ': ', text)
+    summary = re.sub(r'\#\#\# (.*)', r'\1', summary)  # Remove '###'
+    summary = re.sub(r'\#\# (.*)', r'\1', summary)  # Remove '##'
+    summary = re.sub(r'\* \**', '', summary)  # Remove '* **'
+    summary = re.sub(r'\*\*', '', summary)  # Remove '**'
+    summary = re.sub(r'\* ', '', summary)  # Remove '* '
+    summary = re.sub(r'\*', '', summary)  # Remove '*'
+    summary = re.sub(r':\**', ': ', summary)
+    summary = re.sub(r':\*', ': ', summary)
 
     # Add the processed text to the PDF
-    pdf.multi_cell(0, 5, text)  # cell_width set to 0 to use the full page width (within margins)
+    pdf.multi_cell(0, 5, summary)  # cell_width set to 0 to use the full page width (within margins)
     
     # Save the PDF to the specified output path
     pdf.output(output_path)
@@ -87,7 +183,6 @@ def main():
         print(f"Selected file: {file_path}")
 
         try:
-            
             extracted_text = extract_text_from_pdf(file_path)
             
             print("\nGenerating Summary:...")
@@ -95,6 +190,7 @@ def main():
             print("\nSummarized Report:\n")
             print(summary)
 
+            # Save summarized report as PDF
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
             output_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\ExecRep AI-03 Google_Gemini-1.5-Pro(Bard)_M2_{timestamp}.pdf'
             save_text_as_pdf(summary, output_path)

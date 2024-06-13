@@ -7,7 +7,8 @@ import datetime
 from fpdf import FPDF
 import re
 
-# Open a file dialog to select a PDF file
+# Open a file dialog to select a PDF file.
+# Returns the file path if a file is selected, otherwise returns None.
 def select_pdf_file():
     root = tk.Tk()
     root.withdraw()
@@ -16,9 +17,7 @@ def select_pdf_file():
 
 # Extract text from a specific page in the PDF
 def extract_text_from_range(pdf, start_page, end_page):
-    
     text = ""
-    
     for page_num in range(start_page - 1, end_page):  # Page numbers are 0-based in PyMuPDF
         page = pdf[page_num]
         text += page.get_text() + "\n"
@@ -26,17 +25,13 @@ def extract_text_from_range(pdf, start_page, end_page):
     return text
 
 def extract_chunks(file_path, chunks):
-
     extracted_chunks = {chunk: "" for chunk in chunks}
-    
     # Open the PDF file
     pdf_document = fitz.open(file_path)
-    
     # Extract text for each defined chunk
     for chunk_name, page_ranges in chunks.items():
         for start_page, end_page in page_ranges:
             extracted_chunks[chunk_name] += extract_text_from_range(pdf_document, start_page, end_page)
-    
     # Close the PDF document
     pdf_document.close()
     
@@ -48,7 +43,6 @@ def generate_summary(full_text, text_chunk, prompt):
     # Set up Generative AI API
     genai.configure(api_key="AIzaSyCsDH3BueKT9Eu-gPnne7I7wzaQqqgoCVU")
     model = genai.GenerativeModel('gemini-1.5-flash-latest')
-    
     context_prompt = f"Full document context:\n\n{full_text}\n\nSpecific section:\n\n{text_chunk}\n\n{prompt}"
     response = model.generate_content(context_prompt)
     

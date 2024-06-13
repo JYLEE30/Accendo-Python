@@ -8,25 +8,27 @@ model = PegasusForConditionalGeneration.from_pretrained(model_name)
 
 # Example text to summarize
 text = """
-Recruitment Extensive REPORT
+    Recruitment Extensive REPORT
     Candidate		        Lee Jian Yuan
     Overall Score	        6/10
     Leadership		        7/10
     Agility			        6/10
     Cultural Fit		    5/10
+    Assessed on		        13 March 2024
+    Report generated on	    13 March 2024
 
     Quickview
-                
+                    
     Leadership
     Business Acumen				        8/10
     Dealing with Ambiguity			    5/10
     Strategic thinking				    8/10
     People management and development	6/10
-                
+                    
     Agility
     Learning Agility				    7/10
     Cognitive Ability				    5/10
-                
+                    
     Cultural Fit
     Purpose Driven				        3/10
     Performance Oriented			    5/10
@@ -34,9 +36,9 @@ Recruitment Extensive REPORT
 
     Most motivated by: Structuring, Hierarchy, Integrity
     Least motivated by: Security, Absence Of Stress, Cooperativeness
-                
+                    
     Work Styles: Positivity, Flexibility, Conceptual
-                
+                    
     Leadership
     Leadership is core to organisational success. The section below describes how well does a person's behavioural tendencies, abilities and drivers match the organisation’s leadership framework.
 
@@ -70,34 +72,34 @@ Recruitment Extensive REPORT
     About You: Lee is somewhat able to process new and complex information accurately, possessing an average speed of learning and problem solving, compared to others.
 
     Scores Breakdown: Cognitive Ability
-    Inductive-Logical Reasoning
+    Inductive-Logical Reasoning (5/10)
     About You: Lee is able to analyse and recognise specific trends, patterns or information to generate a general conclusion from it, but may need more time as the complexity increases.
-                
-    Numerical Reasoning
+                    
+    Numerical Reasoning (3/10)
     About You: Lee may require more time to process new and complex numerical information accurately, as well as retrieving and identifying relevant information to draw logical conclusions.
-                
-    Verbal Reasoning
+                    
+    Verbal Reasoning (7/10)
     About You: Lee is highly eficient in processing new and complex verbal information accurately, retrieving and identifying relevant information to draw logical conclusions.
 
     Cultural Fit
     An alignment of employees' preferences, interests and motives with the organisation's value system is an integral part in ensuring both employee satisfaction and business productivity. 
 
-    Purpose Driven 3/10
+    Purpose Driven
     Definition: Internal motivation to find meaning in the work while strongly identifying to the organisation's mission to achieve ambitious goals.
     Highly driven in finding meaning in work, while identifying with the organisation's overall mission and vision. Does what is necessary to meet targets and achieve what is expected while completing tasks at own pace. Tends to lose energy and commitment to achieve quality results.
 
-    Performance Oriented 5/10
+    Performance Oriented
     Definition: Sets challenging targets and drives performance to achieve high quality results.
     Role models setting high targets and taking on challenges to achieve more with a sense of urgency to obtain results in the most efficient way. Excels in demonstrating energy and commitment to achieve high quality results. Prefers to finish a task with less regard on the moral side of things, feels that ethics and morales are irrelevant at work.
 
-    Principles Led 7/10
+    Principles Led
     Definition: Holds self-responsible for upholding integrity and the values of the organisation.
     Always strives to ensure work delivered is moral and works with a clear conscience. 
 
     CBI Guide
     Competency-based Interview (CBI) is an interviewing method where questions are systematically designed and asked to target specific competencies. Conventional, unstructured interviews can be fairly random, and candidate’s responses are often subjected to the perception of an interviewer. Judgement is often formed by general impression given by the candidate, which is highly vulnerable to interviewers’ preconceived notions and biases. In CBI, candidates are queried to provide concrete examples to the questions being asked. The interviewers will follow-up by probing into the examples provided by the candidate to gather evidence about his/her competencies.
     This guide is built based on a competency framework. The candidate's typical or preferred behaviours in relation to the competency framework are displayed on the following pages, followed by suggested questions or areas to probe.  
-                
+                    
     Business Acumen
     Suggested Questions
     1.	Share what efforts you have taken in the past to understand your organisation and its business goals and strategies.
