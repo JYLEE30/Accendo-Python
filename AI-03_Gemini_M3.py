@@ -133,7 +133,7 @@ def main():
             print(f"{summary}\n{'-'*40}")
 
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\ExecRep AI-03 Google_Gemini-1.5-Pro(Bard)_M3_{timestamp}.pdf'
+            output_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\ExecRep AI-03 Google_Gemini-1.5-Flash_M3_{timestamp}.pdf'
             save_text_as_pdf(summary, output_path)
             print(f"\nSummary saved to: {output_path}")
 

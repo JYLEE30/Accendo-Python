@@ -291,7 +291,7 @@ def main():
 
             # Save summarized report as PDF
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_pdf_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\ExecRep AI-03 Google_Gemini-1.5-flash(Bard)_M3_Graph_{timestamp}.pdf'
+            output_pdf_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\ExecRep AI-03 Google_Gemini-1.5-Flash_M3_Graph_{timestamp}.pdf'
             save_text_as_pdf(summary, output_pdf_path, chart_path)
             print(f"\nSummary saved to: {output_pdf_path}")
 

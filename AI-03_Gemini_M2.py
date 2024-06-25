@@ -133,6 +133,39 @@ def generate_summary(extracted_text):
         1. {Derailer 1 Title}: {Brief Description}
         2. {Derailer 2 Title}: {Brief Description}
         3. {Derailer 3 Title}: {Brief Description}
+
+        Then, generate a shorter version of summary base on your generated response with important scores and suggest his strangth and weakpoint.
+               
+        Lastly, summarize your generated response into a shorter version in email format with essential details.
+
+        Format the output as follows:
+        Subject: Recruitment Report for {Candidate Name}
+
+        Dear Hiring Manager,
+
+        This email summarizes the assessment results for candidate {Candidate Name}. 
+        
+        Overall score: {Overall Score}
+        
+        {Main Element 1}: {Main Element 1's Score}
+        {Main Element 2}: {Main Element 2's Score}
+        {Main Element 3}: {Main Element 3's Score}
+
+        Key Highlights:
+        Strengths: {From your response}
+        Areas for Development: {From your response}
+        Possible Derailers: {From your response}
+
+        Motivators: {From your response}
+        Demotivators: {From your response}
+        Preferable Work Styles: {From your response}
+
+        For a detailed analysis of his/her sub skills and other components, please review his/her Executive Report attached to this email.
+
+        Thank you for using our product.
+
+        Best regards,
+        Accendo Technologies
     """
     
     # Set up Generative AI API
@@ -192,7 +225,7 @@ def main():
 
             # Save summarized report as PDF
             timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-            output_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\ExecRep AI-03 Google_Gemini-1.5-Pro(Bard)_M2_{timestamp}.pdf'
+            output_path = rf'C:\Users\leeji\OneDrive\Desktop\Accendo Projects\Executive Report\ExecRep AI-03 Google_Gemini-1.5-Flash_M2_{timestamp}.pdf'
             save_text_as_pdf(summary, output_path)
             print(f"\nSummary saved to: {output_path}")
 
