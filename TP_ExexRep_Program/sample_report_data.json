@@ -685,7 +685,7 @@
           "score_description": "(Name) is somewhat able to process new and complex information accurately, possessing an average speed of learning and problem solving, compared to others.",
           "implications": "",
           "development_tips": null,
-          "sub_competency": [
+          "breakdown": [
             {
               "name": "Inductive-Logical Reasoning",
               "score": {
