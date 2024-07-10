@@ -1,0 +1,257 @@
+2024-07-02 13:59:19,778 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-02 13:59:20,300 - INFO - Reading file: tp-dev/to_process/Alex-Vincent.json
+2024-07-02 14:00:26,342 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Alex-Vincent_ExecRep_20240702_140025.json
+2024-07-02 14:00:26,404 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Alex-Vincent_InApp_20240702_140025.json
+2024-07-02 14:00:26,451 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Alex-Vincent_Email_20240702_140025.json
+2024-07-02 14:00:26,560 - INFO - Copied tp-dev/to_process/Alex-Vincent.json to tp-dev/processed_files/Successful/Alex-Vincent.json
+2024-07-02 14:00:26,623 - INFO - Deleted tp-dev/to_process/Alex-Vincent.json from tp-report-summary
+
+2024-07-02 14:00:26,623 - INFO - Reading file: tp-dev/to_process/Candidate-15.json
+2024-07-02 14:01:20,609 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-15_ExecRep_20240702_140120.json
+2024-07-02 14:01:20,656 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-15_InApp_20240702_140120.json
+2024-07-02 14:01:20,703 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-15_Email_20240702_140120.json
+2024-07-02 14:01:20,845 - INFO - Copied tp-dev/to_process/Candidate-15.json to tp-dev/processed_files/Successful/Candidate-15.json
+2024-07-02 14:01:20,892 - INFO - Deleted tp-dev/to_process/Candidate-15.json from tp-report-summary
+
+2024-07-02 14:01:20,892 - INFO - Reading file: tp-dev/to_process/Candidate-16.json
+2024-07-02 14:02:16,233 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-16_ExecRep_20240702_140215.json
+2024-07-02 14:02:16,295 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-16_InApp_20240702_140215.json
+2024-07-02 14:02:16,342 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-16_Email_20240702_140215.json
+2024-07-02 14:02:16,467 - INFO - Copied tp-dev/to_process/Candidate-16.json to tp-dev/processed_files/Successful/Candidate-16.json
+2024-07-02 14:02:16,530 - INFO - Deleted tp-dev/to_process/Candidate-16.json from tp-report-summary
+
+2024-07-02 14:02:16,530 - INFO - Reading file: tp-dev/to_process/Candidate-19.json
+2024-07-02 14:03:12,326 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-19_ExecRep_20240702_140311.json
+2024-07-02 14:03:12,407 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-19_InApp_20240702_140311.json
+2024-07-02 14:03:12,467 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-19_Email_20240702_140311.json
+2024-07-02 14:03:12,577 - INFO - Copied tp-dev/to_process/Candidate-19.json to tp-dev/processed_files/Successful/Candidate-19.json
+2024-07-02 14:03:12,640 - INFO - Deleted tp-dev/to_process/Candidate-19.json from tp-report-summary
+
+2024-07-02 14:03:12,640 - INFO - Reading file: tp-dev/to_process/Wong-Wai-Mun.json
+2024-07-02 14:04:04,473 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Wong-Wai-Mun_ExecRep_20240702_140404.json
+2024-07-02 14:04:04,535 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Wong-Wai-Mun_InApp_20240702_140404.json
+2024-07-02 14:04:04,582 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Wong-Wai-Mun_Email_20240702_140404.json
+2024-07-02 14:04:04,707 - INFO - Copied tp-dev/to_process/Wong-Wai-Mun.json to tp-dev/processed_files/Successful/Wong-Wai-Mun.json
+2024-07-02 14:04:04,754 - INFO - Deleted tp-dev/to_process/Wong-Wai-Mun.json from tp-report-summary
+
+2024-07-02 14:04:04,754 - INFO - Reading file: tp-dev/to_process/sample_report_data.json
+2024-07-02 14:05:04,893 - ERROR - Attempt to generate summary failed with error: 504 Deadline Exceeded
+2024-07-02 14:06:17,769 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/sample_report_data_ExecRep_20240702_140617.json
+2024-07-02 14:06:17,832 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/sample_report_data_InApp_20240702_140617.json
+2024-07-02 14:06:17,894 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/sample_report_data_Email_20240702_140617.json
+2024-07-02 14:06:18,052 - INFO - Copied tp-dev/to_process/sample_report_data.json to tp-dev/processed_files/Successful/sample_report_data.json
+2024-07-02 14:06:18,114 - INFO - Deleted tp-dev/to_process/sample_report_data.json from tp-report-summary
+
+2024-07-02 17:17:54,927 - ERROR - Attempt 1 to generate JSON failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:17:59,928 - ERROR - Attempt 2 to generate JSON failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:18:04,929 - ERROR - Attempt 3 to generate JSON failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:18:04,929 - ERROR - Attempt 1 to generate JSON failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:18:09,931 - ERROR - Attempt 2 to generate JSON failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:18:14,932 - ERROR - Attempt 3 to generate JSON failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:18:14,932 - ERROR - Attempt 1 to generate summary failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:18:19,935 - ERROR - Attempt 2 to generate summary failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:18:24,936 - ERROR - Attempt 3 to generate summary failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:18:24,937 - ERROR - Attempt 1 to generate summary failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:18:29,937 - ERROR - Attempt 2 to generate summary failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:18:34,938 - ERROR - Attempt 3 to generate summary failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:24:20,810 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-02 17:24:21,459 - INFO - Reading file: tp-dev/to_process/Alex-Vincent.json...
+2024-07-02 17:25:08,587 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Alex-Vincent_ExecRep_20240702_172508.json
+2024-07-02 17:25:08,638 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Alex-Vincent_InApp_20240702_172508.json
+2024-07-02 17:25:08,702 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Alex-Vincent_Email_20240702_172508.json
+2024-07-02 17:25:08,798 - INFO - Copied tp-dev/to_process/Alex-Vincent.json to tp-dev/processed_files/Successful/Alex-Vincent.json
+2024-07-02 17:25:08,857 - INFO - Deleted tp-dev/to_process/Alex-Vincent.json from tp-report-summary
+
+2024-07-02 17:25:08,939 - INFO - Reading file: tp-dev/to_process/Candidate-15.json...
+2024-07-02 17:26:00,170 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-15_ExecRep_20240702_172559.json
+2024-07-02 17:26:00,223 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-15_InApp_20240702_172559.json
+2024-07-02 17:26:00,279 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-15_Email_20240702_172559.json
+2024-07-02 17:26:00,398 - INFO - Copied tp-dev/to_process/Candidate-15.json to tp-dev/processed_files/Successful/Candidate-15.json
+2024-07-02 17:26:00,461 - INFO - Deleted tp-dev/to_process/Candidate-15.json from tp-report-summary
+
+2024-07-02 17:26:00,551 - INFO - Reading file: tp-dev/to_process/Candidate-16.json...
+2024-07-02 17:27:02,666 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-16_ExecRep_20240702_172702.json
+2024-07-02 17:27:02,719 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-16_InApp_20240702_172702.json
+2024-07-02 17:27:02,780 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-16_Email_20240702_172702.json
+2024-07-02 17:27:02,861 - INFO - Copied tp-dev/to_process/Candidate-16.json to tp-dev/processed_files/Successful/Candidate-16.json
+2024-07-02 17:27:02,941 - INFO - Deleted tp-dev/to_process/Candidate-16.json from tp-report-summary
+
+2024-07-02 17:27:03,069 - INFO - Reading file: tp-dev/to_process/Candidate-19.json...
+2024-07-02 17:28:00,726 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-19_ExecRep_20240702_172800.json
+2024-07-02 17:28:00,781 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-19_InApp_20240702_172800.json
+2024-07-02 17:28:00,836 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-19_Email_20240702_172800.json
+2024-07-02 17:28:00,953 - INFO - Copied tp-dev/to_process/Candidate-19.json to tp-dev/processed_files/Successful/Candidate-19.json
+2024-07-02 17:28:01,013 - INFO - Deleted tp-dev/to_process/Candidate-19.json from tp-report-summary
+
+2024-07-02 17:28:01,104 - INFO - Reading file: tp-dev/to_process/Wong-Wai-Mun.json...
+2024-07-02 17:29:08,784 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Wong-Wai-Mun_ExecRep_20240702_172908.json
+2024-07-02 17:29:08,844 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Wong-Wai-Mun_InApp_20240702_172908.json
+2024-07-02 17:29:08,891 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Wong-Wai-Mun_Email_20240702_172908.json
+2024-07-02 17:29:08,985 - INFO - Copied tp-dev/to_process/Wong-Wai-Mun.json to tp-dev/processed_files/Successful/Wong-Wai-Mun.json
+2024-07-02 17:29:09,039 - INFO - Deleted tp-dev/to_process/Wong-Wai-Mun.json from tp-report-summary
+
+2024-07-02 17:29:09,231 - INFO - Reading file: tp-dev/to_process/sample_report_data.json...
+2024-07-02 17:30:14,513 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/sample_report_data_ExecRep_20240702_173014.json
+2024-07-02 17:30:14,561 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/sample_report_data_InApp_20240702_173014.json
+2024-07-02 17:30:14,614 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/sample_report_data_Email_20240702_173014.json
+2024-07-02 17:30:14,845 - INFO - Copied tp-dev/to_process/sample_report_data.json to tp-dev/processed_files/Successful/sample_report_data.json
+2024-07-02 17:30:14,904 - INFO - Deleted tp-dev/to_process/sample_report_data.json from tp-report-summary
+
+2024-07-02 17:44:13,189 - ERROR - Attempt 1 to generate JSON failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:44:18,190 - ERROR - Attempt 2 to generate JSON failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:44:23,191 - ERROR - Attempt 3 to generate JSON failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:44:23,191 - ERROR - Attempt 1 to generate JSON failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:44:28,193 - ERROR - Attempt 2 to generate JSON failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:44:33,194 - ERROR - Attempt 3 to generate JSON failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:44:33,194 - ERROR - Attempt 1 to generate summary failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:44:38,196 - ERROR - Attempt 2 to generate summary failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:44:43,197 - ERROR - Attempt 3 to generate summary failed with error: 504 Simulated 504 Gateway Timeout
+2024-07-02 17:44:43,197 - ERROR - Attempt 1 to generate summary failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:44:48,199 - ERROR - Attempt 2 to generate summary failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:44:53,201 - ERROR - Attempt 3 to generate summary failed with error: 500 Simulated 500 Internal Server Error
+2024-07-02 17:45:14,238 - ERROR - Attempt 1 to generate JSON failed with error: 504 
+2024-07-02 17:45:19,238 - ERROR - Attempt 2 to generate JSON failed with error: 504 
+2024-07-02 17:45:24,239 - ERROR - Attempt 3 to generate JSON failed with error: 504 
+2024-07-02 17:45:24,240 - ERROR - Attempt 1 to generate JSON failed with error: 500 
+2024-07-02 17:45:29,240 - ERROR - Attempt 2 to generate JSON failed with error: 500 
+2024-07-02 17:45:34,241 - ERROR - Attempt 3 to generate JSON failed with error: 500 
+2024-07-02 17:45:34,241 - ERROR - Attempt 1 to generate summary failed with error: 504 
+2024-07-02 17:45:39,243 - ERROR - Attempt 2 to generate summary failed with error: 504 
+2024-07-02 17:45:44,244 - ERROR - Attempt 3 to generate summary failed with error: 504 
+2024-07-02 17:45:44,244 - ERROR - Attempt 1 to generate summary failed with error: 500 
+2024-07-02 17:45:49,245 - ERROR - Attempt 2 to generate summary failed with error: 500 
+2024-07-02 17:45:54,246 - ERROR - Attempt 3 to generate summary failed with error: 500 
+2024-07-03 16:16:45,016 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:19:06,579 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:39:19,495 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:48:54,259 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:48:54,767 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 16:52:40,621 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:52:41,126 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 16:54:31,417 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:54:31,934 - INFO - No files found in bucket. Exiting program.
+2024-07-03 16:55:11,770 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:55:12,272 - INFO - No files found in bucket. Exiting program.
+2024-07-03 16:58:09,506 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:58:10,033 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 16:59:11,543 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 16:59:12,051 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 17:00:27,324 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:00:27,876 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 17:04:30,142 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:04:30,659 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:05:53,024 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:05:53,575 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:13:38,023 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:13:38,569 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:15:13,612 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:15:14,114 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:15:34,591 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:15:35,084 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:16:32,635 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:16:33,143 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:18:57,618 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:18:58,237 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:19:31,571 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:19:32,047 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:20:47,200 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:20:47,723 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 17:21:27,436 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:21:27,946 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 17:21:28,052 - INFO - Reading file: tp-dev/to_process/Alex-Vincent.json...
+2024-07-03 17:23:10,962 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:23:11,480 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 17:23:11,564 - INFO - Reading file: tp-dev/to_process/Alex-Vincent.json...
+2024-07-03 17:24:13,271 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Alex-Vincent_ExecRep_20240703_172412.json
+2024-07-03 17:24:13,321 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Alex-Vincent_InApp_20240703_172412.json
+2024-07-03 17:24:13,371 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Alex-Vincent_Email_20240703_172412.json
+2024-07-03 17:24:13,463 - INFO - Copied tp-dev/to_process/Alex-Vincent.json to tp-dev/processed_files/Successful/Alex-Vincent.json
+2024-07-03 17:24:13,522 - INFO - Deleted tp-dev/to_process/Alex-Vincent.json from tp-report-summary
+
+2024-07-03 17:24:13,634 - INFO - Reading file: tp-dev/to_process/Candidate-15.json...
+2024-07-03 17:25:07,005 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-15_ExecRep_20240703_172506.json
+2024-07-03 17:25:07,059 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-15_InApp_20240703_172506.json
+2024-07-03 17:25:07,108 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-15_Email_20240703_172506.json
+2024-07-03 17:25:07,220 - INFO - Copied tp-dev/to_process/Candidate-15.json to tp-dev/processed_files/Successful/Candidate-15.json
+2024-07-03 17:25:07,277 - INFO - Deleted tp-dev/to_process/Candidate-15.json from tp-report-summary
+
+2024-07-03 17:25:07,390 - INFO - Reading file: tp-dev/to_process/Candidate-16.json...
+2024-07-03 17:26:08,770 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-16_ExecRep_20240703_172608.json
+2024-07-03 17:26:08,826 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-16_InApp_20240703_172608.json
+2024-07-03 17:26:08,880 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-16_Email_20240703_172608.json
+2024-07-03 17:26:09,002 - INFO - Copied tp-dev/to_process/Candidate-16.json to tp-dev/processed_files/Successful/Candidate-16.json
+2024-07-03 17:26:09,061 - INFO - Deleted tp-dev/to_process/Candidate-16.json from tp-report-summary
+
+2024-07-03 17:26:09,162 - INFO - Reading file: tp-dev/to_process/Candidate-19.json...
+2024-07-03 17:27:05,421 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-19_ExecRep_20240703_172705.json
+2024-07-03 17:27:05,471 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-19_InApp_20240703_172705.json
+2024-07-03 17:27:05,531 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-19_Email_20240703_172705.json
+2024-07-03 17:27:05,654 - INFO - Copied tp-dev/to_process/Candidate-19.json to tp-dev/processed_files/Successful/Candidate-19.json
+2024-07-03 17:27:05,702 - INFO - Deleted tp-dev/to_process/Candidate-19.json from tp-report-summary
+
+2024-07-03 17:27:05,807 - INFO - Reading file: tp-dev/to_process/Wong-Wai-Mun.json...
+2024-07-03 17:28:05,272 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Wong-Wai-Mun_ExecRep_20240703_172804.json
+2024-07-03 17:28:05,320 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Wong-Wai-Mun_InApp_20240703_172804.json
+2024-07-03 17:28:05,369 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Wong-Wai-Mun_Email_20240703_172804.json
+2024-07-03 17:28:05,499 - INFO - Copied tp-dev/to_process/Wong-Wai-Mun.json to tp-dev/processed_files/Successful/Wong-Wai-Mun.json
+2024-07-03 17:28:05,547 - INFO - Deleted tp-dev/to_process/Wong-Wai-Mun.json from tp-report-summary
+
+2024-07-03 17:28:05,687 - INFO - Reading file: tp-dev/to_process/sample_report_data.json...
+2024-07-03 17:29:05,766 - ERROR - Attempt 1 to generate summary failed with error: 504 Deadline Exceeded
+2024-07-03 17:30:14,263 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/sample_report_data_ExecRep_20240703_173013.json
+2024-07-03 17:30:14,317 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/sample_report_data_InApp_20240703_173013.json
+2024-07-03 17:30:14,368 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/sample_report_data_Email_20240703_173013.json
+2024-07-03 17:30:14,473 - INFO - Copied tp-dev/to_process/sample_report_data.json to tp-dev/processed_files/Successful/sample_report_data.json
+2024-07-03 17:30:14,535 - INFO - Deleted tp-dev/to_process/sample_report_data.json from tp-report-summary
+
+2024-07-03 17:35:06,733 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:35:07,225 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:35:08,660 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:35:09,150 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:35:16,525 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:35:17,032 - INFO - No files found in bucket. Exiting program.
+2024-07-03 17:37:03,726 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2024-07-03 17:37:04,251 - INFO - Files found in bucket. Proceeding with processing.
+2024-07-03 17:37:04,327 - INFO - Reading file: tp-dev/to_process/Alex-Vincent.json...
+2024-07-03 17:38:17,374 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Alex-Vincent_ExecRep_20240703_173816.json
+2024-07-03 17:38:17,425 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Alex-Vincent_InApp_20240703_173816.json
+2024-07-03 17:38:17,477 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Alex-Vincent_Email_20240703_173816.json
+2024-07-03 17:38:17,578 - INFO - Copied tp-dev/to_process/Alex-Vincent.json to tp-dev/processed_files/Successful/Alex-Vincent.json
+2024-07-03 17:38:17,636 - INFO - Deleted tp-dev/to_process/Alex-Vincent.json from tp-report-summary
+
+2024-07-03 17:38:17,722 - INFO - Reading file: tp-dev/to_process/Candidate-15.json...
+2024-07-03 17:39:07,796 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-15_ExecRep_20240703_173907.json
+2024-07-03 17:39:07,853 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-15_InApp_20240703_173907.json
+2024-07-03 17:39:07,907 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-15_Email_20240703_173907.json
+2024-07-03 17:39:08,021 - INFO - Copied tp-dev/to_process/Candidate-15.json to tp-dev/processed_files/Successful/Candidate-15.json
+2024-07-03 17:39:08,080 - INFO - Deleted tp-dev/to_process/Candidate-15.json from tp-report-summary
+
+2024-07-03 17:39:08,177 - INFO - Reading file: tp-dev/to_process/Wong-Wai-Mun.json...
+2024-07-03 17:39:59,090 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Wong-Wai-Mun_ExecRep_20240703_173958.json
+2024-07-03 17:39:59,134 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Wong-Wai-Mun_InApp_20240703_173958.json
+2024-07-03 17:39:59,197 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Wong-Wai-Mun_Email_20240703_173958.json
+2024-07-03 17:39:59,290 - INFO - Copied tp-dev/to_process/Wong-Wai-Mun.json to tp-dev/processed_files/Successful/Wong-Wai-Mun.json
+2024-07-03 17:39:59,341 - INFO - Deleted tp-dev/to_process/Wong-Wai-Mun.json from tp-report-summary
+
+2024-07-03 17:39:59,459 - INFO - Reading file: tp-dev/to_process/sample_report_data.json...
+2024-07-03 17:40:59,502 - ERROR - Attempt 1 to generate summary failed with error: 504 Deadline Exceeded
+2024-07-03 17:42:06,718 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/sample_report_data_ExecRep_20240703_174206.json
+2024-07-03 17:42:06,764 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/sample_report_data_InApp_20240703_174206.json
+2024-07-03 17:42:06,819 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/sample_report_data_Email_20240703_174206.json
+2024-07-03 17:42:06,923 - INFO - Copied tp-dev/to_process/sample_report_data.json to tp-dev/processed_files/Successful/sample_report_data.json
+2024-07-03 17:42:06,975 - INFO - Deleted tp-dev/to_process/sample_report_data.json from tp-report-summary
+
+2024-07-03 17:42:07,076 - INFO - Reading file: tp-dev/to_process/Candidate-16.json...
+2024-07-03 17:42:55,787 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-16_ExecRep_20240703_174255.json
+2024-07-03 17:42:55,845 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-16_InApp_20240703_174255.json
+2024-07-03 17:42:55,897 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-16_Email_20240703_174255.json
+2024-07-03 17:42:55,955 - INFO - Copied tp-dev/to_process/Candidate-16.json to tp-dev/processed_files/Successful/Candidate-16.json
+2024-07-03 17:42:56,012 - INFO - Deleted tp-dev/to_process/Candidate-16.json from tp-report-summary
+
+2024-07-03 17:42:56,109 - INFO - Reading file: tp-dev/to_process/Candidate-19.json...
+2024-07-03 17:44:16,449 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Candidate-19_ExecRep_20240703_174416.json
+2024-07-03 17:44:16,499 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Candidate-19_InApp_20240703_174416.json
+2024-07-03 17:44:16,551 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Candidate-19_Email_20240703_174416.json
+2024-07-03 17:44:16,653 - INFO - Copied tp-dev/to_process/Candidate-19.json to tp-dev/processed_files/Successful/Candidate-19.json
+2024-07-03 17:44:16,716 - INFO - Deleted tp-dev/to_process/Candidate-19.json from tp-report-summary
+

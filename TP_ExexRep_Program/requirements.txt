@@ -1,4 +1,0 @@
-tk
-google-api-core
-google-generativeai
-fpdf
