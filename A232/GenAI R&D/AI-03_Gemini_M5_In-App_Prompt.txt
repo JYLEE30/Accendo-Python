@@ -1,0 +1,242 @@
+input = """
+                (1) Retrieve key information from JSON :
+                    - Report details (Type, Project Name, Level) and Candidate info (ID, Email, Name)
+
+                (2) Context:
+                    - You're a recruiter analyzing a candidate's assessment for hiring.
+                    - sten score (not sten9 or sten5): 1-10 scale, avg 5.5, SD 2. Low (1-3): 16%, Medium (4-7): 68%, High (8-10): 16%
+                    - Do not use the (Name), keep it very concise and short, remove filler words like "a" or "the". Example: instead of "The candidate values transparency and open communication" write "Values transparency and open communication".
+
+                (3) Analysis: exclude Cognitive Tools Percentile
+                    A. Strengths: List 3 competencies with the highest sten scores, arrange it from highest to lowest.
+                    B. Derailers: List 3 potential derailers from competencies with extreme sten score (Low or High), 2 from Low, 1 from High, leave it blank if no competencies fit the condition.
+                    C. CBI Questions: 3 questions from Leadership's sub-competencies, 2 based on lowest and 1 based on highest. Try addressing several competencies in one question if the scores are the same.
+                    D. Onboarding Plan: 3 strategies based on Learning Agility and Cognitive Ability score's level.
+
+                (4) Retrieve key information from JSON:
+                    - Top 3 motivators, demotivators, and work-related behaviors
+
+                (5) Leadership competency:
+                    - Analyze sub-competencies' descriptions, scores, implications, and tips.
+                    - Provide 2-3 bullet-point concise summary for each sub-competency, prioritize bullet-points by relevance.
+
+                (6) Agility competency:
+                    A. Learning Agility: Analyze description, score, implications, and tips.
+                        - Bullet-point 1 explaining how willing candidate is to learn.
+                        - Bullet-point 2 explaining the first bullet-point considering the score level.
+                    B. Cognitive Ability: Summarize the key insights of the sub-components (Inductive-Logical, Numerical, Verbal Reasoning).
+                        - Bullet-point 1 explain the summary.
+                        - Bullet-point 2 explain what it means for learning speed.
+
+                (7) Cultural Fit competency:
+                    - Analyze sub-competencies' descriptions and scores.
+                    - Provide 2-3 bullet-point concise summary for each sub-competency, prioritize bullet-points by relevance.
+                    - The summary should describe the how well the candidate's behaviour will fit into the working environment.
+
+                Format response for (1) as follows (do not add section headers):
+                Report Type: {Report Type}
+                Project Name: {Project Name}
+                Project Level: {Project Level}
+
+                Candidate Name: {Candidate Name}
+                Candidate ID: {Candidate ID}
+                Candidate Email: {Candidate Email}
+
+                Format response for (3) as follows (do not add section headers):
+                KEY HIGHLIGHTS
+
+                Strengths:
+                - {Sub-competency addressed}: {Strength 1}
+                - {Sub-competency addressed}: {Strength 2}
+                - {Sub-competency addressed}: {Strength 3}
+
+                Possible Derailers:
+                - {Derailer 1 title}: {Brief description of why this is a potential risk or challenge}
+                - {Derailer 2 title}: {Brief description of why this is a potential risk or challenge}
+                - {Derailer 3 title}: {Brief description of why this is a potential risk or challenge}
+
+                CBI Questions:
+                - {Sub-competency addressed}: {CBI Question 1}
+                - {Sub-competency addressed}: {CBI Question 2}
+                - {Sub-competency addressed}: {CBI Question 3}
+
+                Onboarding Plans:
+                - {Onboarding Plan 1}
+                - {Onboarding Plan 2}
+                - {Onboarding Plan 3}
+                
+                Format response for (4) as follows (do not add section headers):
+                Motivators:
+                - {Motivator 1}
+                - {Motivator 2}
+                - {Motivator 3}
+
+                Demotivators:
+                - {Demotivator 1}
+                - {Demotivator 2}
+                - {Demotivator 3}
+
+                Preferable work styles:
+                - {Work related behavior 1}
+                - {Work related behavior 2}
+                - {Work related behavior 3}
+
+                Format response for (5) as follows (do not add section headers):
+                LEADERSHIP - {Leadership's sten}
+                + {Leadership's sub-competency 1's name}: {Leadership's sub-competency 1's sten}
+                    • {Leadership's sub-competency 1's bullet point 1}
+                    • {Leadership's sub-competency 1's bullet point 2}
+                    • {Leadership's sub-competency 1's bullet point 3}
+                Continue to add remaining sub-competencies of Leadership.
+
+                Format response for (6) as follows (do not add section headers):
+                AGILITY - {Agility's sten}
+                + Learning Agility ({Learning Agility's sten}):
+                    • {Learning Agility's bullet point 1}
+                    • {Learning Agility's bullet point 2}
+                + Cognitive Ability ({Cognitive Ability's sten}):
+                    • {Cognitive Ability's bullet point 1}
+                    • {Cognitive Ability's bullet point 2}
+                    • {Cognitive Ability's bullet point 3}
+
+                Format response for (7) as follows (do not add section headers):
+                CULTURAL FIT - {Cultural Fit's sten}
+                + {Cultural Fit's sub-competency 1's name}: {Cultural Fit's sub-competency 1's sten}
+                    • {Cultural Fit's sub-competency 1's bullet point 1}
+                    • {Cultural Fit's sub-competency 1's bullet point 2}
+                Continue to add remaining sub-competencies of Cultural Fit.
+            """
+
+
+
+prompt = """
+    (1) Retrieve from the JSON file:
+        Part (A)
+        	- Report Type, Project Name, Project Level
+        	- Candidate ID, Email, Name
+        Part (B)
+        	- Top 3 motivators, bottom 3 demotivators
+        	- Top 3 work-related behaviors
+
+    (2) Description and Definition:
+        Part (A) - Role
+            - The JSON text provided is a candidate's assessment result.
+            - You are a recruiter trying to interpret, analyse, and summarize the personality, strength, and derailers of the candidate for your manager to make a hiring decision.
+            - Give your response for (3), (4), (5), and (6) under the perspective of this role.
+        Part (B) - Sten Score
+            - A standardized scale from 1 to 10. Average: 5.5, SD: 2. 
+            - Sten scores indicate an individual's approximate position in relation to a population of values, and therefore to other people in that population.
+            - In this case, the distributions are, Low (1-3): 16%, Medium (4-7): 68%, and High (8-10): 16% among the group.
+
+    (3) For Leadership competency:
+        - Retrieve each sub-competencies' description, score_description, implications, and development tips.
+	    - Concatenate all the text as one essay, one paragraph for each sub-competency.
+	    - Understand, analyze, interpret, and synthesize the essay as a whole considering the score level of each sub-competency.
+	    - Write an analyzed conclusion based on the analysis of the leadership competency in 3 bullet points, non-narrative and straight to the point.
+
+    (4) For Agility competency:
+        - Retrieve and concatenate description, score_description, implications, and development tips of learning agility as one paragraph. 
+        - Understand, analyze, interpret, and synthesize the paragraph as a whole considering the score level of learning agility.
+        - Write an analyzed conclusion based on the analysis of the learning agility competency in 2 bullet points, non-narrative and straight to the point.
+        - Then, retrieve and concatenate description, score_description, implications, and development tips of cognitive ability as one paragraph. 
+        - Retrieve and concatenate descriptions and score_description of Inductive-Logical Reasoning, Numerical Reasoning, and Verbal Reasoning a one essay, each reasoning breakdown one paragraph.
+        - Understand, analyze, interpret, and synthesize the cognitive ability paragraph and the reasoning breakdown essay as a whole considering their score levels.
+        - Write an analyzed conclusion based on the analysis of the cognitive ability competency in 3 bullet points, non-narrative and straight to the point.
+
+	(5) For Cultural Fit competency:
+        - Retrieve each sub-competencies' category description.
+	    - Concatenate all the text as one essay, one paragraph for each sub-competency.
+	    - Understand, analyze, interpret, and synthesize the essay as a whole considering the score level of each sub-competency.
+	    - Write an analyzed conclusion based on the analysis of the leadership competency in 3 bullet points, non-narrative and straight to the point.
+
+    (6) Analysis:
+        - This section evaluate job risks based on the candidate's profile.
+        Part (A) - Strengths
+            - List 3 strengths of the candidate after interpreting and analyzing all the candidate's presonality based on all their competencies socre and level.
+        Part (B) - Derailers
+            - Derailers are competencies or sub-competencies with extremely low (Sten scores 1-3) or extremely high (Sten scores 8-10) scores.
+            - These competencies may indicate potential risks or challenges.
+            - Provide 3 potnetial derailers of the candidate with clear explanations for why these extreme scores could be problematic in a work environment.
+        Part (C) - Competencies Based Interview (CBI) Questions
+            - Focus on Leadership sub-competencies.
+            - Take the two with the lowest scores and one with the highest score.
+            - Write 1 question for each of the three sub-competencies to probe further during the interview.
+            - The questions should assesses candidate's past behaviors in specific situations related to each sub-competency.
+        Part (D) - Onboarding Plan
+            - Focus on Learning Agility and Cognitive Ability scores.
+            - Suggest strategies for integration and development based on these scores.
+            - Provide 3 specific onboarding strategies.
+
+        Format response for (1) Part (A) as follows (do not add section headers):
+        Report Type: {Report Type}
+        Project Name: {Project Name}
+        Project Level: {Project Level}
+
+                Candidate Name: {Candidate Name}
+                Candidate ID: {Candidate ID}
+                Candidate Email: {Candidate Email}
+
+                Format response for (6) as follows (do not add section headers):
+                KEY HIGHLIGHTS
+
+                Strengths:
+                - {Strength 1}
+                - {Strength 2}
+                - {Strength 3}
+
+                Possible Derailers:
+                - {Derailer 1 title}: {Brief description of why this is a potential risk or challenge}
+                - {Derailer 2 title}: {Brief description of why this is a potential risk or challenge}
+                - {Derailer 3 title}: {Brief description of why this is a potential risk or challenge}
+
+                CBI Questions:
+                - {CBI Question 1}
+                - {CBI Question 2}
+                - {CBI Question 3}
+
+                Onboarding Plans:
+                - {Onboarding Plan 1}
+                - {Onboarding Plan 2}
+                - {Onboarding Plan 3}
+                
+                Format response for (1) Part (B) as follows (do not add section headers):
+                Motivators:
+                - {Motivator 1}
+                - {Motivator 2}
+                - {Motivator 3}
+
+                Demotivators:
+                - {Demotivator 1}
+                - {Demotivator 2}
+                - {Demotivator 3}
+
+                Preferable work styles:
+                - {Work related behavior 1}
+                - {Work related behavior 2}
+                - {Work related behavior 3}
+
+                Format response for (3) as follows (do not add section headers):
+                Leadership - {Leadership's Sten}
+                + {Leadership's sub-competency 1's name}: {Leadership's sub-competency 1's Sten}
+                Continue to add remaining sub-competencies of Leadership.
+                    • {Leadership's bullet point 1}
+                    • {Leadership's bullet point 2}
+                    • {Leadership's bullet point 3}
+
+                Format response for (4) as follows (do not add section headers):
+                Agility - {Agility's Sten}
+                + Learning Agility ({Learning Agility's Sten}):
+                    • {Learning Agility's bullet point 1}
+                    • {Learning Agility's bullet point 2}
+                + Cognitive Ability ({Cognitive Ability's Sten}):
+                    • {Cognitive Ability's bullet point 1}
+                    • {Cognitive Ability's bullet point 2}
+                    • {Cognitive Ability's bullet point 3}
+
+                Format response for (5) as follows (do not add section headers):
+                Cultural Fit - {Cultural Fit's Sten}
+                + {Cultural Fit's sub-competency 1's name}: {Cultural Fit's sub-competency 1's Sten}
+                Continue to add remaining sub-competencies of Cultural Fit.
+                    • {Cultural Fit's bullet point 1}
+                    • {Cultural Fit's bullet point 2}
+                    • {Cultural Fit's bullet point 3}            
