@@ -1,0 +1,1315 @@
+===============================================================================================================================
+FIRST SESSION
+===============================================================================================================================
+
+ubuntu@ip-10-0-17-42:~$ ls
+amazon-cloudwatch-agent.deb  amazon-ssm-agent.deb  amazon-ssm-agent.deb.1  myenv
+ubuntu@ip-10-0-17-42:~$ echo '-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbm-----BEGIN OPENSSH PRIVATE KEY-----2gtcn
+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
+gV2TdKjO+ePi0AAAALbGVlamlASllMRUU=
+-----END OPENSSH PRIVATE KEY-----'
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+gV2TdKjO+ePi0AAAALbGVlamlASllMRUU=
+-----END OPENSSH PRIVATE KEY-----
+ubuntu@ip-10-0-17-42:~$ ^C
+ubuntu@ip-10-0-17-42:~$ chmod 700 ~/.ssh
+ubuntu@ip-10-0-17-42:~$ chmod 600 ~/.ssh/authorized_keys
+ubuntu@ip-10-0-17-42:~$ cat ~/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdf9DbJLTMEfrFL09Xy/C6UHHt+ltI0A4xvLWYrDcE/BQEtrGDNmFyhTqRR36lLyIMvqJWa3KJ1TiK5VRgNFIturGd9nMeW8ykdOu/bEwv+ko80zkhSmDUZZIv54YAJoRTuuJLjPriOpUznd8NBGE4sSLlHq/psc4QAIYDk1P58hb+uSUGRtBUjF4vjZV8H9pvLVq7OG4uQ8JL8uVW7AmjsJzhDEMVXzgT7XbD2OjrCmrKjxiMjvTIN8k64x8k0B14FggqMmtS6izg6S8wt8d6uO9ZwzcWgYvKrAoL6aR6lzkLhoC80v5pcUP7BXgjcSrNrnN38hKe1sT+vEKhiWpP yeesan
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDi9wVl51trXC3B4URrhjC+9Moo3Gf1UREZCLWBSYK1ZJb1kgbBW7lSIozznEckggomfMiRuVbV5yPeWb5Cj9qVCYyMMEJGeN7iqyVtgjKvg1UkbNagA2wa2FKPWA7YtO2m1JJjMdPDCzhHQKEiFDc90XPykkUaDJKeEmzALGITbiov7AvcJ+1tNIcEcnTqVHHq5Ozq4eGfoI0VlKSRU2eQXRgEhTiV+IbeDQzvTN8buTXdg59MpdHWAoL31n/+yTOm8RGN8nFX89mFC5IEKhvTCuI3khyJEtWyuKH69/lcwCd7w6FfkFSx3J5lB7/9RQZya7z9UridswxGp5SjbQ1tADGrqQDkVRsDDdoGVZV6WHFTqUL70swwxVjYB73+H7wQQKqMVaTa5ZP/qi63i3B5elejVtqgmhtOSSsyzYaAwkcqInd3Juo51fb9CfytNIf/ChEgdtynHaN2EAQ6A0EMtusVYNFNUQKNHkdfFUbbr4/tJLeZD1nzZKBOhG950AE= leeji@JYLEE
+ubuntu@ip-10-0-17-42:~$ vi ~/.ssh/authorized_keys
+ubuntu@ip-10-0-17-42:~$ vi ~/.ssh/authorized_keys
+ubuntu@ip-10-0-17-42:~$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/ubuntu/.ssh/id_rsa
+Your public key has been saved in /home/ubuntu/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:anZ9y5uJuSA75G6ujxllDdAhR+Osa3PO6CqPArIZHyY ubuntu@ip-10-0-17-42
+The key's randomart image is:
++---[RSA 3072]----+
+|    oo=.         |
+|     *..         |
+|      +          |
+|     . o         |
+|    . o S        |
+|E o  +.. .       |
+|oB .=o* o . .    |
+|=... %++ . = +   |
+|oooo**B.  +.*.   |
++----[SHA256]-----+
+ubuntu@ip-10-0-17-42:~$ cd /home/ubuntu/.ssh
+ubuntu@ip-10-0-17-42:~/.ssh$ ls
+authorized_keys  id_rsa  id_rsa.pub  known_hosts
+ubuntu@ip-10-0-17-42:~/.ssh$ cat
+^C
+ubuntu@ip-10-0-17-42:~/.ssh$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDX15SabQl1Dy8xCHMFj5WuoZdQ+gHWpny65fHjExdVjtT6xXLSGnDJiEp7RArpKyMl+j6cO3DfYe/gvIb4x23LGC/Gfavelmkv/QFFHXl2+IfIyWKywOhubcyRLl6a5siFl/WtOlmGuYleBEFG6HJqqMyI28VnKheHcfBUq41icsTv6/1JGAOnMw8qMm0XI7wKQ0mV2OCx4Fyr9z1hsidzuDjMyetPUU4wO35z8ojgs8RAkw5Fy+wRc3gDGmivDl0Dbad9KVbySJUlArG89+w0YSrC8O8DsONFlmOOWneQqt5Fw3fKWbyq2DuBRuSRLSkZDIm2RF+npwUfYIDJEDzkTkA2nDnCyVcZgv8CqLj0HLWsQTpMY5Ld4/OcFVUO83EaTUxwtDGAft/sJMyY2Ngo8DzS4r8MpAMB0Z8ZmqPNhCMyL8kR/mgFaUsfxaI9XVLgDO3RUGMOJihojsRQNoqL6zk/KKF7nd5+qdSHq8j9fdE9yIf6vMo+vtLgOBl673E= ubuntu@ip-10-0-17-42
+ubuntu@ip-10-0-17-42:~/.ssh$ cd ~
+ubuntu@ip-10-0-17-42:~$ git clone git@bitbucket.org:accendo-talentpulse/gen-ai.git
+Cloning into 'gen-ai'...
+remote: Enumerating objects: 53, done.
+remote: Counting objects: 100% (53/53), done.
+remote: Compressing objects: 100% (52/52), done.
+remote: Total 53 (delta 24), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (53/53), 50.95 KiB | 4.63 MiB/s, done.
+Resolving deltas: 100% (24/24), done.
+ubuntu@ip-10-0-17-42:~$ ls
+amazon-cloudwatch-agent.deb  amazon-ssm-agent.deb  amazon-ssm-agent.deb.1  gen-ai  myenv
+ubuntu@ip-10-0-17-42:~$ cd gen-ai
+ubuntu@ip-10-0-17-42:~/gen-ai$ ls
+AI_03_Gemini_M4.py  AI_03_Gemini_M4_ExceptionTest.py  config.json
+ubuntu@ip-10-0-17-42:~/gen-ai$ python3 --version
+Python 3.12.3
+ubuntu@ip-10-0-17-42:~/gen-ai$ python3
+.git/                             .gitignore                        AI_03_Gemini_M4.py                AI_03_Gemini_M4_ExceptionTest.py  config.json
+ubuntu@ip-10-0-17-42:~/gen-ai$ python3 AI_03_Gemini_M4
+python3: can't open file '/home/ubuntu/gen-ai/AI_03_Gemini_M4': [Errno 2] No such file or directory
+ubuntu@ip-10-0-17-42:~/gen-ai$ python3 AI_03_Gemini_M4.py
+Traceback (most recent call last):
+  File "/home/ubuntu/gen-ai/AI_03_Gemini_M4.py", line 6, in <module>
+    import google.api_core.exceptions
+ModuleNotFoundError: No module named 'google'
+ubuntu@ip-10-0-17-42:~/gen-ai$ pipx list
+venvs are in /home/ubuntu/.local/share/pipx/venvs
+apps are exposed on your $PATH at /home/ubuntu/.local/bin
+manual pages are exposed at /home/ubuntu/.local/share/man
+   package google-api-core 2.19.1, installed using Python 3.12.3
+    - normalizer
+    - pyrsa-decrypt
+    - pyrsa-encrypt
+    - pyrsa-keygen
+    - pyrsa-priv2pub
+    - pyrsa-sign
+    - pyrsa-verify
+   package google-generativeai 0.7.2, installed using Python 3.12.3
+    - tqdm
+    - normalizer (symlink missing or pointing to unexpected location)
+    - pyrsa-decrypt (symlink missing or pointing to unexpected location)
+    - pyrsa-encrypt (symlink missing or pointing to unexpected location)
+    - pyrsa-keygen (symlink missing or pointing to unexpected location)
+    - pyrsa-priv2pub (symlink missing or pointing to unexpected location)
+    - pyrsa-sign (symlink missing or pointing to unexpected location)
+    - pyrsa-verify (symlink missing or pointing to unexpected location)
+ubuntu@ip-10-0-17-42:~/gen-ai$ pip3 install google-generative-ai
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+ubuntu@ip-10-0-17-42:~/gen-ai$ pip3 install python3==0.5.0
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+ubuntu@ip-10-0-17-42:~/gen-ai$ apt install python3==0.5.0
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+ubuntu@ip-10-0-17-42:~/gen-ai$ apt install google-generativeai==0.5.0
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+ubuntu@ip-10-0-17-42:~/gen-ai$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABkNnS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABkNnS] [-g group] [-h host] [-p prompt] [-U user]
+            [-u user] [command [arg ...]]
+usage: sudo [-ABbEHkNnPS] [-r role] [-t type] [-C num] [-D directory]
+            [-g group] [-h host] [-p prompt] [-R directory] [-T timeout]
+            [-u user] [VAR=value] [-i | -s] [command [arg ...]]
+usage: sudo -e [-ABkNnS] [-r role] [-t type] [-C num] [-D directory]
+            [-g group] [-h host] [-p prompt] [-R directory] [-T timeout]
+            [-u user] file ...
+ubuntu@ip-10-0-17-42:~/gen-ai$ pip3 install -q -U google-generativeai
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+ubuntu@ip-10-0-17-42:~/gen-ai$ pip install -q -U google-generativeai
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+ubuntu@ip-10-0-17-42:~/gen-ai$ sudo apt install python3 python3-pip
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+python3 is already the newest version (3.12.3-0ubuntu1).
+python3-pip is already the newest version (24.0+dfsg-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 14 not upgraded.
+ubuntu@ip-10-0-17-42:~/gen-ai$ pip3 install google-api-core google-generativeai
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+ubuntu@ip-10-0-17-42:~/gen-ai$
+
+
+
+
+
+===============================================================================================================================
+SECOND SESSION (NEW INSTANCES)
+===============================================================================================================================
+
+/bin/bash
+cd ~
+sh-5.2$ /bin/bash
+[ubuntu@ip-10-0-17-214 bin]$ cd ~
+[ubuntu@ip-10-0-17-214 ~]$ python3 --version
+Python 3.9.16
+[ubuntu@ip-10-0-17-214 ~]$ pip list
+bash: pip: command not found
+[ubuntu@ip-10-0-17-214 ~]$ ^C
+[ubuntu@ip-10-0-17-214 ~]$ sudo su - ec2-user
+[sudo] password for ubuntu:
+Sorry, try again.
+[sudo] password for ubuntu:
+Last login: Thu Jul 18 11:29:21 UTC 2024 on pts/2
+[ec2-user@ip-10-0-17-214 ~]$ python3 --version
+Python 3.12.0
+[ec2-user@ip-10-0-17-214 ~]$ pip3 list
+Package                      Version
+---------------------------- ---------
+annotated-types              0.7.0
+cachetools                   5.4.0
+certifi                      2024.7.4
+charset-normalizer           3.3.2
+filelock                     3.15.4
+fsspec                       2024.6.1
+google-ai-generativelanguage 0.6.6
+google-api-core              2.19.1
+google-api-python-client     2.137.0
+google-auth                  2.32.0
+google-auth-httplib2         0.2.0
+google-generativeai          0.7.2
+googleapis-common-protos     1.63.2
+grpcio                       1.65.1
+grpcio-status                1.62.2
+httplib2                     0.22.0
+huggingface-hub              0.23.5
+idna                         3.7
+Jinja2                       3.1.4
+MarkupSafe                   2.1.5
+mpmath                       1.3.0
+neo4j                        5.22.0
+networkx                     3.3
+numpy                        1.26.4
+packaging                    24.1
+pip                          24.1.2
+proto-plus                   1.24.0
+protobuf                     4.25.3
+pyasn1                       0.6.0
+pyasn1_modules               0.4.0
+pydantic                     2.8.2
+pydantic_core                2.20.1
+pyparsing                    3.1.2
+pytz                         2024.1
+PyYAML                       6.0.1
+regex                        2024.5.15
+requests                     2.32.3
+rsa                          4.9
+safetensors                  0.4.3
+scipy                        1.14.0
+setuptools                   71.0.1
+sympy                        1.13.0
+tokenizers                   0.19.1
+torch                        2.3.1
+tqdm                         4.66.4
+transformers                 4.42.4
+typing_extensions            4.12.2
+uritemplate                  4.1.1
+urllib3                      2.2.2
+wheel                        0.43.0
+[ec2-user@ip-10-0-17-214 ~]$ pip3 install boto3
+Collecting boto3
+  Downloading boto3-1.34.144-py3-none-any.whl.metadata (6.6 kB)
+Collecting botocore<1.35.0,>=1.34.144 (from boto3)
+  Downloading botocore-1.34.144-py3-none-any.whl.metadata (5.7 kB)
+Collecting jmespath<2.0.0,>=0.7.1 (from boto3)
+  Downloading jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting s3transfer<0.11.0,>=0.10.0 (from boto3)
+  Downloading s3transfer-0.10.2-py3-none-any.whl.metadata (1.7 kB)
+Collecting python-dateutil<3.0.0,>=2.1 (from botocore<1.35.0,>=1.34.144->boto3)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: urllib3!=2.2.0,<3,>=1.25.4 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from botocore<1.35.0,>=1.34.144->boto3) (2.2.2)
+Collecting six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.35.0,>=1.34.144->boto3)
+  Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Downloading boto3-1.34.144-py3-none-any.whl (139 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.2/139.2 kB 11.2 MB/s eta 0:00:00
+Downloading botocore-1.34.144-py3-none-any.whl (12.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.4/12.4 MB 103.8 MB/s eta 0:00:00
+Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+Downloading s3transfer-0.10.2-py3-none-any.whl (82 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.7/82.7 kB 13.9 MB/s eta 0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 32.0 MB/s eta 0:00:00
+Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, jmespath, python-dateutil, botocore, s3transfer, boto3
+Successfully installed boto3-1.34.144 botocore-1.34.144 jmespath-1.0.1 python-dateutil-2.9.0.post0 s3transfer-0.10.2 six-1.16.0
+[ec2-user@ip-10-0-17-214 ~]$ pip3 isntall botocore
+ERROR: unknown command "isntall" - maybe you meant "install"
+[ec2-user@ip-10-0-17-214 ~]$ pip3 install botocore
+Requirement already satisfied: botocore in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (1.34.144)
+Requirement already satisfied: jmespath<2.0.0,>=0.7.1 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from botocore) (1.0.1)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from botocore) (2.9.0.post0)
+Requirement already satisfied: urllib3!=2.2.0,<3,>=1.25.4 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from botocore) (2.2.2)
+Requirement already satisfied: six>=1.5 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from python-dateutil<3.0.0,>=2.1->botocore) (1.16.0)
+[ec2-user@ip-10-0-17-214 ~]$ pip3 list
+Package                      Version
+---------------------------- -----------
+annotated-types              0.7.0
+boto3                        1.34.144
+botocore                     1.34.144
+cachetools                   5.4.0
+certifi                      2024.7.4
+charset-normalizer           3.3.2
+filelock                     3.15.4
+fsspec                       2024.6.1
+google-ai-generativelanguage 0.6.6
+google-api-core              2.19.1
+google-api-python-client     2.137.0
+google-auth                  2.32.0
+google-auth-httplib2         0.2.0
+google-generativeai          0.7.2
+googleapis-common-protos     1.63.2
+grpcio                       1.65.1
+grpcio-status                1.62.2
+httplib2                     0.22.0
+huggingface-hub              0.23.5
+idna                         3.7
+Jinja2                       3.1.4
+jmespath                     1.0.1
+MarkupSafe                   2.1.5
+mpmath                       1.3.0
+neo4j                        5.22.0
+networkx                     3.3
+numpy                        1.26.4
+packaging                    24.1
+pip                          24.1.2
+proto-plus                   1.24.0
+protobuf                     4.25.3
+pyasn1                       0.6.0
+pyasn1_modules               0.4.0
+pydantic                     2.8.2
+pydantic_core                2.20.1
+pyparsing                    3.1.2
+python-dateutil              2.9.0.post0
+pytz                         2024.1
+PyYAML                       6.0.1
+regex                        2024.5.15
+requests                     2.32.3
+rsa                          4.9
+s3transfer                   0.10.2
+safetensors                  0.4.3
+scipy                        1.14.0
+setuptools                   71.0.1
+six                          1.16.0
+sympy                        1.13.0
+tokenizers                   0.19.1
+torch                        2.3.1
+tqdm                         4.66.4
+transformers                 4.42.4
+typing_extensions            4.12.2
+uritemplate                  4.1.1
+urllib3                      2.2.2
+wheel                        0.43.0
+[ec2-user@ip-10-0-17-214 ~]$ pip3 import json
+ERROR: unknown command "import"
+[ec2-user@ip-10-0-17-214 ~]$ pip3 install json
+ERROR: Could not find a version that satisfies the requirement json (from versions: none)
+ERROR: No matching distribution found for json
+[ec2-user@ip-10-0-17-214 ~]$ vi ~/.ssh/authorized_keys
+[ec2-user@ip-10-0-17-214 ~]$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/ec2-user/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/ec2-user/.ssh/id_rsa
+Your public key has been saved in /home/ec2-user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:1uZPIDR3tNO01sLZZD9WvKDNvRv1+3UL179s52ybJZI ec2-user@ip-10-0-17-214.ap-southeast-1.compute.internal
+The key's randomart image is:
++---[RSA 3072]----+
+|            . ..+|
+|           . * B+|
+|        o . B Xo=|
+|       . + o =.+o|
+|        S +     +|
+|       . + . . oo|
+|          . E...O|
+|           o .+*X|
+|            . .OX|
++----[SHA256]-----+
+[ec2-user@ip-10-0-17-214 ~]$ cd home/ubuntu/.ssh
+-bash: cd: home/ubuntu/.ssh: No such file or directory
+[ec2-user@ip-10-0-17-214 ~]$ cat id_rsa.pub
+cat: id_rsa.pub: No such file or directory
+[ec2-user@ip-10-0-17-214 ~]$ ls
+get-pip.py
+[ec2-user@ip-10-0-17-214 ~]$ ls4
+-bash: ls4: command not found
+[ec2-user@ip-10-0-17-214 ~]$ ls
+get-pip.py
+[ec2-user@ip-10-0-17-214 ~]$ cd ..
+[ec2-user@ip-10-0-17-214 home]$ ls
+ec2-user  ssm-user  ubuntu
+[ec2-user@ip-10-0-17-214 home]$ cd ..
+[ec2-user@ip-10-0-17-214 /]$ ls
+bin  boot  dev  etc  home  lib  lib64  local  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+[ec2-user@ip-10-0-17-214 /]$ sudo apt get locate
+sudo: apt: command not found
+[ec2-user@ip-10-0-17-214 /]$ sudo aptget locate
+sudo: aptget: command not found
+[ec2-user@ip-10-0-17-214 /]$ vi .ssh/authorized_keys
+[ec2-user@ip-10-0-17-214 /]$ sudo yum install mlocate
+Last metadata expiration check: 8:41:38 ago on Thu Jul 18 03:10:42 2024.
+Dependencies resolved.
+=============================================================================================================================================================================================
+ Package                                   Architecture                              Version                                             Repository                                     Size
+=============================================================================================================================================================================================
+Installing:
+ mlocate                                   aarch64                                   0.26-351.amzn2023                                   amazonlinux                                   115 k
+
+Transaction Summary
+=============================================================================================================================================================================================
+Install  1 Package
+
+Total download size: 115 k
+Installed size: 684 k
+Is this ok [y/N]: y
+Downloading Packages:
+mlocate-0.26-351.amzn2023.aarch64.rpm                                                                                                                        1.1 MB/s | 115 kB     00:00
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                        711 kB/s | 115 kB     00:00
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                                                     1/1
+  Running scriptlet: mlocate-0.26-351.amzn2023.aarch64                                                                                                                                   1/1
+  Installing       : mlocate-0.26-351.amzn2023.aarch64                                                                                                                                   1/1
+  Running scriptlet: mlocate-0.26-351.amzn2023.aarch64                                                                                                                                   1/1
+Created symlink /etc/systemd/system/timers.target.wants/mlocate-updatedb.timer → /usr/lib/systemd/system/mlocate-updatedb.timer.
+
+  Verifying        : mlocate-0.26-351.amzn2023.aarch64                                                                                                                                   1/1
+
+Installed:
+  mlocate-0.26-351.amzn2023.aarch64
+
+Complete!
+[ec2-user@ip-10-0-17-214 /]$ locate .ssh
+locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+[ec2-user@ip-10-0-17-214 /]$ locate ssh
+locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+[ec2-user@ip-10-0-17-214 /]$ sudo updatedb
+[ec2-user@ip-10-0-17-214 /]$ locate .ssh
+/home/ec2-user/.ssh
+/home/ec2-user/.ssh/authorized_keys
+/home/ec2-user/.ssh/id_rsa
+/home/ec2-user/.ssh/id_rsa.pub
+/usr/share/empty.sshd
+/usr/share/doc/openssh/PROTOCOL.sshsig
+[ec2-user@ip-10-0-17-214 /]$ cd /home/ec2-user/.ssh
+[ec2-user@ip-10-0-17-214 .ssh]$ ls
+authorized_keys  id_rsa  id_rsa.pub
+[ec2-user@ip-10-0-17-214 .ssh]$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDCq2wxk+QxvmEPQ8qdgFAXHSfOQlSxySQf9JsJQvyGePNs8P2Bgl+dL77Xx+JtltYPE6BYgdkEkiuKlpnJwgLnxIjwYNh8omXVUTANRXJ+v8Gp50eBmUv4o9o42p2Qsjrnx4iC+jIZA5iqOQkUjPlAA7mLZnxE6ssrQOguo1g0AYqo1JpbNUMoaYgJatvUFUpjYiWNFgXXQ7zHStzO/Q+omenIUfmbo6RsidRSkcvSnLFrKgbGmteOOUOvWcd8Lfri4XQRALnIkyA+20maAnrbRiz+HMfzwWtKJU9fb9dYkpLCNhXBsXKdqr4Y/iRny0SoL/8bdKSNLOeuIyQuoUNQjAoFXCZD2lsAUOsyGyx0/E2v7eaCKylsSVpqGY7XO+lPZqb5olU2cd+VJDec/9lzEF2B1+CK5Et1Sk0Mw3QKchksWmsJqFdQ421bCai/raeL95DXZBdhsgxJJ+3Jt4JCrv8ljpY+cP+6he/9BFc+IjJv6wq0hhgLZ0R+we3S7M0= ec2-user@ip-10-0-17-214.ap-southeast-1.compute.internal
+[ec2-user@ip-10-0-17-214 .ssh]$ cd ~
+[ec2-user@ip-10-0-17-214 ~]$ git clone git@bitbucket.org:accendo-talentpulse/gen-ai.git
+Cloning into 'gen-ai'...
+The authenticity of host 'bitbucket.org (104.192.137.21)' can't be established.
+ED25519 key fingerprint is SHA256:ybgmFkzwOSotHTHLJgHO0QN8L0xErw6vd0VhFA9m3SM.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'bitbucket.org' (ED25519) to the list of known hosts.
+Connection closed by 104.192.137.21 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[ec2-user@ip-10-0-17-214 ~]$ pip install git
+ERROR: Could not find a version that satisfies the requirement git (from versions: none)
+ERROR: No matching distribution found for git
+[ec2-user@ip-10-0-17-214 ~]$ pip3 intall bit
+ERROR: unknown command "intall" - maybe you meant "install"
+[ec2-user@ip-10-0-17-214 ~]$ pip3 install bit
+Collecting bit
+  Downloading bit-0.8.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting coincurve>=4.3.0 (from bit)
+  Downloading coincurve-20.0.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (4.0 kB)
+Requirement already satisfied: requests in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from bit) (2.32.3)
+Collecting asn1crypto (from coincurve>=4.3.0->bit)
+  Downloading asn1crypto-1.5.1-py2.py3-none-any.whl.metadata (13 kB)
+Collecting cffi>=1.3.0 (from coincurve>=4.3.0->bit)
+  Downloading cffi-1.16.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (1.5 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from requests->bit) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from requests->bit) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from requests->bit) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (from requests->bit) (2024.7.4)
+Collecting pycparser (from cffi>=1.3.0->coincurve>=4.3.0->bit)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Downloading bit-0.8.0-py3-none-any.whl (68 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.9/68.9 kB 5.4 MB/s eta 0:00:00
+Downloading coincurve-20.0.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 54.8 MB/s eta 0:00:00
+Downloading cffi-1.16.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (477 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 477.0/477.0 kB 40.0 MB/s eta 0:00:00
+Downloading asn1crypto-1.5.1-py2.py3-none-any.whl (105 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 105.0/105.0 kB 13.7 MB/s eta 0:00:00
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 kB 15.4 MB/s eta 0:00:00
+Installing collected packages: asn1crypto, pycparser, cffi, coincurve, bit
+Successfully installed asn1crypto-1.5.1 bit-0.8.0 cffi-1.16.0 coincurve-20.0.0 pycparser-2.22
+[ec2-user@ip-10-0-17-214 ~]$ sudo apt install git
+sudo: apt: command not found
+[ec2-user@ip-10-0-17-214 ~]$ sudo pip install git
+sudo: pip: command not found
+[ec2-user@ip-10-0-17-214 ~]$ sudo pip3 install git
+sudo: pip3: command not found
+[ec2-user@ip-10-0-17-214 ~]$ pip3 install git
+ERROR: Could not find a version that satisfies the requirement git (from versions: none)
+ERROR: No matching distribution found for git
+[ec2-user@ip-10-0-17-214 ~]$ sudo yum install git
+Last metadata expiration check: 8:53:56 ago on Thu Jul 18 03:10:42 2024.
+Package git-2.40.1-1.amzn2023.0.3.aarch64 is already installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+[ec2-user@ip-10-0-17-214 ~]$ cd .ssh
+[ec2-user@ip-10-0-17-214 .ssh]$ git clone git@bitbucket.org:accendo-talentpulse/gen-ai.git
+Cloning into 'gen-ai'...
+git@bitbucket.org: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[ec2-user@ip-10-0-17-214 .ssh]$ cd
+[ec2-user@ip-10-0-17-214 ~]$ git clone git@bitbucket.org:accendo-talentpulse/gen-ai.git~
+Cloning into 'gen-ai.git~'...
+git@bitbucket.org: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[ec2-user@ip-10-0-17-214 ~]$ ssh -T git@bitbucket.org
+git@bitbucket.org: Permission denied (publickey).
+[ec2-user@ip-10-0-17-214 ~]$ ssh-add -l
+Could not open a connection to your authentication agent.
+[ec2-user@ip-10-0-17-214 ~]$ cd .ssh
+[ec2-user@ip-10-0-17-214 .ssh]$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDCq2wxk+QxvmEPQ8qdgFAXHSfOQlSxySQf9JsJQvyGePNs8P2Bgl+dL77Xx+JtltYPE6BYgdkEkiuKlpnJwgLnxIjwYNh8omXVUTANRXJ+v8Gp50eBmUv4o9o42p2Qsjrnx4iC+jIZA5iqOQkUjPlAA7mLZnxE6ssrQOguo1g0AYqo1JpbNUMoaYgJatvUFUpjYiWNFgXXQ7zHStzO/Q+omenIUfmbo6RsidRSkcvSnLFrKgbGmteOOUOvWcd8Lfri4XQRALnIkyA+20maAnrbRiz+HMfzwWtKJU9fb9dYkpLCNhXBsXKdqr4Y/iRny0SoL/8bdKSNLOeuIyQuoUNQjAoFXCZD2lsAUOsyGyx0/E2v7eaCKylsSVpqGY7XO+lPZqb5olU2cd+VJDec/9lzEF2B1+CK5Et1Sk0Mw3QKchksWmsJqFdQ421bCai/raeL95DXZBdhsgxJJ+3Jt4JCrv8ljpY+cP+6he/9BFc+IjJv6wq0hhgLZ0R+we3S7M0= ec2-user@ip-10-0-17-214.ap-southeast-1.compute.internal
+[ec2-user@ip-10-0-17-214 .ssh]$ git clone git@bitbucket.org:accendo-talentpulse/gen-ai.git
+Cloning into 'gen-ai'...
+git@bitbucket.org: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[ec2-user@ip-10-0-17-214 .ssh]$
+
+
+
+
+
+===============================================================================================================================
+THIRD SESSION (NEW INSTANCES) AWS Log
+===============================================================================================================================
+
+/bin/bash
+cd ~
+sh-5.2$ /bin/bash
+[ubuntu@ip-10-0-17-214 bin]$ cd ~
+[ubuntu@ip-10-0-17-214 ~]$ pip list
+bash: pip: command not found
+[ubuntu@ip-10-0-17-214 ~]$ sudo su - ec2-user
+[sudo] password for ubuntu:
+Last login: Thu Jul 18 11:30:46 UTC 2024 on pts/2
+[ec2-user@ip-10-0-17-214 ~]$ ls
+get-pip.py
+[ec2-user@ip-10-0-17-214 ~]$ git clone git@bitbucket.org:accendo-talentpulse/gen-ai.git
+Cloning into 'gen-ai'...
+git@bitbucket.org: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[ec2-user@ip-10-0-17-214 ~]$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/ec2-user/.ssh/id_rsa):
+/home/ec2-user/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/ec2-user/.ssh/id_rsa
+Your public key has been saved in /home/ec2-user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:ZSZpKLab/5QPCE5+7JcePcPX5FSTRaVivMwASjKM5/U ec2-user@ip-10-0-17-214.ap-southeast-1.compute.internal
+The key's randomart image is:
++---[RSA 3072]----+
+|   oo . .      .=|
+|  . o+.o o .   .o|
+|   oo.o.+ = + .o.|
+|   ..o .E= = o ..|
+|    +   S   + o  |
+|   + = . +   =   |
+|    = + =.= . o  |
+|     + .o+ +     |
+|      o+o .      |
++----[SHA256]-----+
+[ec2-user@ip-10-0-17-214 ~]$ cd /home/ec2-user/.ssh/
+[ec2-user@ip-10-0-17-214 .ssh]$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC6cpYLbIr/q2klP86+TPczxeFdCpAe0B8kVQ4rLhGjL9pgx9dcCiX4KxYGf5EwNrn27Zv9b66PHaioj9I17QrSsl9WHjgNb6RaimPk71oVae+gC+kGw4FBpQJkSTe8gX4S1dCk2vPpxN2CmEKPm7PK4kBS1ud3jSTOIB7vDE14QKTiCV3tG9neRpyR8XDJq2MqAyrIr0FU/D+3Kt2aQFSFTFZOYB8CVgM2DKbm3yJDUncTJphnBrBo2qN5Kk6up/Hak9UoeQwEKbQZtlNDfuvSzvvzw3IVF4Bkb2xl11paCmPdEJMQ07lsp6zcJoOxgLWv5oERmev925KMxV8Li2D75i0Wq1At/a6pDEXYG6KaX7lgcAd7DRa8rCVp+figmMVjqOzTQqs1s2SqyYKI90Ec/TQBlhL2Fx8z+h+AJigmrPRQZ5w5G1YMPbewMiNrDSgSgy9IW2cO1VAg15LIZ++Iah7f84v0SXkBaCy7QJaKkBANHRUpeNhsouZDK7t1DOE= ec2-user@ip-10-0-17-214.ap-southeast-1.compute.internal
+[ec2-user@ip-10-0-17-214 .ssh]$ cd~
+-bash: cd~: command not found
+[ec2-user@ip-10-0-17-214 .ssh]$ cd ~
+[ec2-user@ip-10-0-17-214 ~]$ git clone git@bitbucket.org:accendo-talentpulse/gen-ai.git
+Cloning into 'gen-ai'...
+Receiving objects: 100% (53/53), 50.95 KiB | 184.00 KiB/s, done.
+Resolving deltas: 100% (24/24), done.
+[ec2-user@ip-10-0-17-214 ~]$ ls
+gen-ai  get-pip.py
+[ec2-user@ip-10-0-17-214 ~]$ pip list
+Package                      Version
+---------------------------- -----------
+annotated-types              0.7.0
+asn1crypto                   1.5.1
+bit                          0.8.0
+boto3                        1.34.144
+botocore                     1.34.144
+cachetools                   5.4.0
+certifi                      2024.7.4
+cffi                         1.16.0
+charset-normalizer           3.3.2
+coincurve                    20.0.0
+filelock                     3.15.4
+fsspec                       2024.6.1
+google-ai-generativelanguage 0.6.6
+google-api-core              2.19.1
+google-api-python-client     2.137.0
+google-auth                  2.32.0
+google-auth-httplib2         0.2.0
+google-generativeai          0.7.2
+googleapis-common-protos     1.63.2
+grpcio                       1.65.1
+grpcio-status                1.62.2
+httplib2                     0.22.0
+huggingface-hub              0.23.5
+idna                         3.7
+Jinja2                       3.1.4
+jmespath                     1.0.1
+MarkupSafe                   2.1.5
+mpmath                       1.3.0
+neo4j                        5.22.0
+networkx                     3.3
+numpy                        1.26.4
+packaging                    24.1
+pip                          24.1.2
+proto-plus                   1.24.0
+protobuf                     4.25.3
+pyasn1                       0.6.0
+pyasn1_modules               0.4.0
+pycparser                    2.22
+pydantic                     2.8.2
+pydantic_core                2.20.1
+pyparsing                    3.1.2
+python-dateutil              2.9.0.post0
+pytz                         2024.1
+PyYAML                       6.0.1
+regex                        2024.5.15
+requests                     2.32.3
+rsa                          4.9
+s3transfer                   0.10.2
+safetensors                  0.4.3
+scipy                        1.14.0
+setuptools                   71.0.1
+six                          1.16.0
+sympy                        1.13.0
+tokenizers                   0.19.1
+torch                        2.3.1
+tqdm                         4.66.4
+transformers                 4.42.4
+typing_extensions            4.12.2
+uritemplate                  4.1.1
+urllib3                      2.2.2
+wheel                        0.43.0
+[ec2-user@ip-10-0-17-214 ~]$ cd gen-ai
+[ec2-user@ip-10-0-17-214 gen-ai]$ ls
+AI_03_Gemini_M4.py  AI_03_Gemini_M4_ExceptionTest.py  config.json
+[ec2-user@ip-10-0-17-214 gen-ai]$ python3 AI_03_Gemini_M4.py
+[ec2-user@ip-10-0-17-214 gen-ai]$ ls
+AI_03_Gemini_M4.py  AI_03_Gemini_M4_ExceptionTest.py  config.json  tp-report-summary.log
+[ec2-user@ip-10-0-17-214 gen-ai]$ cat tp-report-summary.log
+2024-07-19 01:19:15,838 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:19:16,040 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:19:16,067 - INFO - Lock acquired.
+2024-07-19 01:19:16,110 - INFO - Lock released.
+2024-07-19 01:19:16,110 - INFO - No files found in bucket. Exiting program.
+2024-07-19 01:19:16,129 - INFO - Lock released.
+2024-07-19 01:19:16,130 - INFO - Script execution finished.
+
+[ec2-user@ip-10-0-17-214 gen-ai]$ python3 AI_03_Gemini_M4.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1721352128.163563   33077 config.cc:230] gRPC experiments enabled: call_status_override_on_cancellation, event_engine_dns, event_engine_listener, http2_stats_fix, monitoring_experiment, pick_first_new, trace_record_callops, work_serializer_clears_time_cache
+
+^CTraceback (most recent call last):
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 556, in <module>
+    main()
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 481, in main
+    json_InApp_Gen = generate_json(InApp_Context, retries=3, delay=5)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 163, in generate_json
+    context_json = model.generate_content(full_prompt)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 827, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/grpc/_channel.py", line 1178, in __call__
+    ) = self._blocking(
+        ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/grpc/_channel.py", line 1162, in _blocking
+    event = call.next_event()
+            ^^^^^^^^^^^^^^^^^
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 400, in grpc._cython.cygrpc.SegregatedCall.next_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 211, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 205, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 78, in grpc._cython.cygrpc._latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 61, in grpc._cython.cygrpc._internal_latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 42, in grpc._cython.cygrpc._next
+KeyboardInterrupt
+
+[ec2-user@ip-10-0-17-214 gen-ai]$ pip install grcpio
+ERROR: Could not find a version that satisfies the requirement grcpio (from versions: none)
+ERROR: No matching distribution found for grcpio
+[ec2-user@ip-10-0-17-214 gen-ai]$ cd ~
+[ec2-user@ip-10-0-17-214 ~]$ pip install grpcio
+Requirement already satisfied: grpcio in ./.pyenv/versions/3.12.0/lib/python3.12/site-packages (1.65.1)
+[ec2-user@ip-10-0-17-214 ~]$ cd gen-ai
+[ec2-user@ip-10-0-17-214 gen-ai]$ python3 AI_03_Gemini_M4.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1721352600.987184   33662 config.cc:230] gRPC experiments enabled: call_status_override_on_cancellation, event_engine_dns, event_engine_listener, http2_stats_fix, monitoring_experiment, pick_first_new, trace_record_callops, work_serializer_clears_time_cache
+^CTraceback (most recent call last):
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 556, in <module>
+    main()
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 461, in main
+    json_ExecRep_Gen = generate_json(ExecRep_Context, retries=3, delay=5)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 163, in generate_json
+    context_json = model.generate_content(full_prompt)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 827, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/grpc/_channel.py", line 1178, in __call__
+    ) = self._blocking(
+        ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/grpc/_channel.py", line 1162, in _blocking
+    event = call.next_event()
+            ^^^^^^^^^^^^^^^^^
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 400, in grpc._cython.cygrpc.SegregatedCall.next_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 211, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 205, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 78, in grpc._cython.cygrpc._latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 61, in grpc._cython.cygrpc._internal_latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 42, in grpc._cython.cygrpc._next
+KeyboardInterrupt
+
+[ec2-user@ip-10-0-17-214 gen-ai]$ pip3 install --upgrade grpcio
+Requirement already satisfied: grpcio in /home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages (1.65.1)
+[ec2-user@ip-10-0-17-214 gen-ai]$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 517 bytes | 517.00 KiB/s, done.
+From bitbucket.org:accendo-talentpulse/gen-ai
+   0f5c96e..e7468bb  main                  -> origin/main
+   86b3e63..bfb2e8d  feature-batch-support -> origin/feature-batch-support
+Updating 0f5c96e..e7468bb
+Fast-forward
+ AI_03_Gemini_M4.py | 49 +++++++++++++++++++++++++++----------------------
+ 1 file changed, 27 insertions(+), 22 deletions(-)
+[ec2-user@ip-10-0-17-214 gen-ai]$ python3 AI_03_Gemini_M4.py
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1721353172.107848   34167 config.cc:230] gRPC experiments enabled: call_status_override_on_cancellation, event_engine_dns, event_engine_listener, http2_stats_fix, monitoring_experiment, pick_first_new, trace_record_callops, work_serializer_clears_time_cache
+^CTraceback (most recent call last):
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 561, in <module>
+    main()
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 437, in main
+    generated_summary = generate_summary(json_context, prompt, retries=3, delay=5)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 115, in generate_summary
+    response = model.generate_content(full_prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 827, in generate_content
+    response = rpc(
+               ^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/grpc/_channel.py", line 1178, in __call__
+    ) = self._blocking(
+        ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/.pyenv/versions/3.12.0/lib/python3.12/site-packages/grpc/_channel.py", line 1162, in _blocking
+    event = call.next_event()
+            ^^^^^^^^^^^^^^^^^
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 400, in grpc._cython.cygrpc.SegregatedCall.next_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 211, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 205, in grpc._cython.cygrpc._next_call_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 78, in grpc._cython.cygrpc._latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 61, in grpc._cython.cygrpc._internal_latent_event
+  File "src/python/grpcio/grpc/_cython/_cygrpc/completion_queue.pyx.pxi", line 42, in grpc._cython.cygrpc._next
+KeyboardInterrupt
+
+[ec2-user@ip-10-0-17-214 gen-ai]$ git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 610 bytes | 610.00 KiB/s, done.
+From bitbucket.org:accendo-talentpulse/gen-ai
+   e7468bb..3bbf0d3  main                  -> origin/main
+   bfb2e8d..91b7b50  feature-batch-support -> origin/feature-batch-support
+Updating e7468bb..3bbf0d3
+Fast-forward
+ AI_03_Gemini_M4.py | 5 +++++
+ 1 file changed, 5 insertions(+)
+[ec2-user@ip-10-0-17-214 gen-ai]$ python3 AI_03_Gemini_M4.py
+Traceback (most recent call last):
+  File "/home/ec2-user/gen-ai/AI_03_Gemini_M4.py", line 13, in <module>
+    import absl.logging
+ModuleNotFoundError: No module named 'absl'
+[ec2-user@ip-10-0-17-214 gen-ai]$ cd ~
+[ec2-user@ip-10-0-17-214 ~]$ pip3 install absl
+ERROR: Could not find a version that satisfies the requirement absl (from versions: none)
+ERROR: No matching distribution found for absl
+[ec2-user@ip-10-0-17-214 ~]$ pip3 install absl-py
+Collecting absl-py
+  Downloading absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+Downloading absl_py-2.1.0-py3-none-any.whl (133 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.7/133.7 kB 11.0 MB/s eta 0:00:00
+Installing collected packages: absl-py
+Successfully installed absl-py-2.1.0
+[ec2-user@ip-10-0-17-214 ~]$ cd gen-ai/
+[ec2-user@ip-10-0-17-214 gen-ai]$ python3 AI_03_Gemini_M4.py
+WARNING: Logging before flag parsing goes to stderr.
+I0719 01:46:50.382803 281472819965984 credentials.py:1075] Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+I0719 01:46:50.556544 281472819965984 AI_03_Gemini_M4.py:256] Bucket is not locked. Continue.
+I0719 01:46:50.581488 281472819965984 AI_03_Gemini_M4.py:53] Lock acquired.
+I0719 01:46:50.601311 281472819965984 AI_03_Gemini_M4.py:270] Files found in bucket. Proceeding with processing.
+
+I0719 01:46:50.645224 281472819965984 AI_03_Gemini_M4.py:439] Reading file 1: tp-dev/to_process/Sample report (786).json...
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1721353610.648312   34873 config.cc:230] gRPC experiments enabled: call_status_override_on_cancellation, event_engine_dns, event_engine_listener, http2_stats_fix, monitoring_experiment, pick_first_new, trace_record_callops, work_serializer_clears_time_cache
+I0719 01:47:58.083414 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (786)_ExecRep_20240719_014757.json
+I0719 01:47:58.113645 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (786)_InApp_20240719_014757.json
+I0719 01:47:58.139429 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (786)_Email_20240719_014757.json
+I0719 01:47:58.206227 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (786).json to tp-dev/processed_files/Successful/Sample report (786).json
+I0719 01:47:58.241726 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (786).json from tp-report-summary
+
+I0719 01:47:58.284737 281472819965984 AI_03_Gemini_M4.py:439] Reading file 2: tp-dev/to_process/Sample report (890).json...
+I0719 01:48:44.165979 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (890)_ExecRep_20240719_014844.json
+I0719 01:48:44.204932 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (890)_InApp_20240719_014844.json
+I0719 01:48:44.231216 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (890)_Email_20240719_014844.json
+I0719 01:48:44.336439 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (890).json to tp-dev/processed_files/Successful/Sample report (890).json
+I0719 01:48:44.368410 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (890).json from tp-report-summary
+
+I0719 01:48:44.415714 281472819965984 AI_03_Gemini_M4.py:439] Reading file 3: tp-dev/to_process/Sample report (892).json...
+I0719 01:49:43.721432 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (892)_ExecRep_20240719_014943.json
+I0719 01:49:43.748459 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (892)_InApp_20240719_014943.json
+I0719 01:49:43.777581 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (892)_Email_20240719_014943.json
+I0719 01:49:43.899040 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (892).json to tp-dev/processed_files/Successful/Sample report (892).json
+I0719 01:49:43.937544 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (892).json from tp-report-summary
+
+I0719 01:49:43.982790 281472819965984 AI_03_Gemini_M4.py:439] Reading file 4: tp-dev/to_process/Sample report (90).json...
+I0719 01:50:49.193060 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (90)_ExecRep_20240719_015049.json
+I0719 01:50:49.220087 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (90)_InApp_20240719_015049.json
+I0719 01:50:49.247762 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (90)_Email_20240719_015049.json
+I0719 01:50:49.342820 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (90).json to tp-dev/processed_files/Successful/Sample report (90).json
+I0719 01:50:49.375928 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (90).json from tp-report-summary
+
+I0719 01:50:49.421407 281472819965984 AI_03_Gemini_M4.py:439] Reading file 5: tp-dev/to_process/Sample report (910).json...
+I0719 01:52:14.849812 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (910)_ExecRep_20240719_015214.json
+I0719 01:52:14.874464 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (910)_InApp_20240719_015214.json
+I0719 01:52:14.908898 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (910)_Email_20240719_015214.json
+I0719 01:52:14.989543 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (910).json to tp-dev/processed_files/Successful/Sample report (910).json
+I0719 01:52:15.034248 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (910).json from tp-report-summary
+
+I0719 01:52:15.072808 281472819965984 AI_03_Gemini_M4.py:439] Reading file 6: tp-dev/to_process/Sample report (920).json...
+I0719 01:53:29.241857 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (920)_ExecRep_20240719_015329.json
+I0719 01:53:29.288379 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (920)_InApp_20240719_015329.json
+I0719 01:53:29.316728 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (920)_Email_20240719_015329.json
+I0719 01:53:29.395813 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (920).json to tp-dev/processed_files/Successful/Sample report (920).json
+I0719 01:53:29.423576 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (920).json from tp-report-summary
+
+I0719 01:53:29.459173 281472819965984 AI_03_Gemini_M4.py:439] Reading file 7: tp-dev/to_process/Sample report (930).json...
+I0719 01:54:31.757364 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (930)_ExecRep_20240719_015431.json
+I0719 01:54:31.787183 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (930)_InApp_20240719_015431.json
+I0719 01:54:31.815485 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (930)_Email_20240719_015431.json
+I0719 01:54:31.896768 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (930).json to tp-dev/processed_files/Successful/Sample report (930).json
+I0719 01:54:31.930720 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (930).json from tp-report-summary
+
+I0719 01:54:31.988752 281472819965984 AI_03_Gemini_M4.py:439] Reading file 8: tp-dev/to_process/Sample report (947).json...
+I0719 01:56:13.812300 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (947)_ExecRep_20240719_015613.json
+I0719 01:56:13.839917 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (947)_InApp_20240719_015613.json
+I0719 01:56:13.866750 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (947)_Email_20240719_015613.json
+I0719 01:56:13.951032 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (947).json to tp-dev/processed_files/Successful/Sample report (947).json
+I0719 01:56:13.986991 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (947).json from tp-report-summary
+
+I0719 01:56:14.032288 281472819965984 AI_03_Gemini_M4.py:439] Reading file 9: tp-dev/to_process/Sample report (961).json...
+I0719 01:57:38.142137 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (961)_ExecRep_20240719_015738.json
+I0719 01:57:38.172054 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (961)_InApp_20240719_015738.json
+I0719 01:57:38.201451 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (961)_Email_20240719_015738.json
+I0719 01:57:38.268670 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (961).json to tp-dev/processed_files/Successful/Sample report (961).json
+I0719 01:57:38.351497 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (961).json from tp-report-summary
+
+I0719 01:57:38.395251 281472819965984 AI_03_Gemini_M4.py:439] Reading file 10: tp-dev/to_process/Sample report (965).json...
+I0719 01:58:32.911973 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (965)_ExecRep_20240719_015832.json
+I0719 01:58:32.941442 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (965)_InApp_20240719_015832.json
+I0719 01:58:32.965532 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (965)_Email_20240719_015832.json
+I0719 01:58:33.060526 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (965).json to tp-dev/processed_files/Successful/Sample report (965).json
+I0719 01:58:33.097301 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (965).json from tp-report-summary
+
+I0719 01:58:33.138035 281472819965984 AI_03_Gemini_M4.py:439] Reading file 11: tp-dev/to_process/Sample report (968).json...
+I0719 01:59:29.965498 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (968)_ExecRep_20240719_015929.json
+I0719 01:59:29.991050 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (968)_InApp_20240719_015929.json
+I0719 01:59:30.023104 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (968)_Email_20240719_015929.json
+I0719 01:59:30.103837 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (968).json to tp-dev/processed_files/Successful/Sample report (968).json
+I0719 01:59:30.139243 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (968).json from tp-report-summary
+
+I0719 01:59:30.190833 281472819965984 AI_03_Gemini_M4.py:439] Reading file 12: tp-dev/to_process/Sample report (972).json...
+I0719 02:00:54.005266 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (972)_ExecRep_20240719_020053.json
+I0719 02:00:54.038994 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (972)_InApp_20240719_020053.json
+I0719 02:00:54.063661 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (972)_Email_20240719_020053.json
+I0719 02:00:54.168969 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (972).json to tp-dev/processed_files/Successful/Sample report (972).json
+I0719 02:00:54.198537 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (972).json from tp-report-summary
+
+I0719 02:00:54.246354 281472819965984 AI_03_Gemini_M4.py:439] Reading file 13: tp-dev/to_process/Sample report (977).json...
+I0719 02:02:01.672550 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (977)_ExecRep_20240719_020201.json
+I0719 02:02:01.698914 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (977)_InApp_20240719_020201.json
+I0719 02:02:01.724494 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (977)_Email_20240719_020201.json
+I0719 02:02:01.846113 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (977).json to tp-dev/processed_files/Successful/Sample report (977).json
+I0719 02:02:01.883718 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (977).json from tp-report-summary
+
+I0719 02:02:01.928477 281472819965984 AI_03_Gemini_M4.py:439] Reading file 14: tp-dev/to_process/Sample report (981).json...
+I0719 02:02:53.645852 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (981)_ExecRep_20240719_020253.json
+I0719 02:02:53.675068 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (981)_InApp_20240719_020253.json
+I0719 02:02:53.705162 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (981)_Email_20240719_020253.json
+I0719 02:02:53.764003 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (981).json to tp-dev/processed_files/Successful/Sample report (981).json
+I0719 02:02:53.799391 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (981).json from tp-report-summary
+
+I0719 02:02:53.841984 281472819965984 AI_03_Gemini_M4.py:439] Reading file 15: tp-dev/to_process/Sample report (983).json...
+I0719 02:03:42.790185 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (983)_ExecRep_20240719_020342.json
+I0719 02:03:42.814132 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (983)_InApp_20240719_020342.json
+I0719 02:03:42.839753 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (983)_Email_20240719_020342.json
+I0719 02:03:42.903704 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (983).json to tp-dev/processed_files/Successful/Sample report (983).json
+I0719 02:03:42.935974 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (983).json from tp-report-summary
+
+I0719 02:03:42.982763 281472819965984 AI_03_Gemini_M4.py:439] Reading file 16: tp-dev/to_process/Sample report (986).json...
+I0719 02:04:48.865612 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (986)_ExecRep_20240719_020448.json
+I0719 02:04:48.889202 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (986)_InApp_20240719_020448.json
+I0719 02:04:48.914381 281472819965984 AI_03_Gemini_M4.py:227] Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (986)_Email_20240719_020448.json
+I0719 02:04:48.978862 281472819965984 AI_03_Gemini_M4.py:210] Copied tp-dev/to_process/Sample report (986).json to tp-dev/processed_files/Successful/Sample report (986).json
+I0719 02:04:49.011127 281472819965984 AI_03_Gemini_M4.py:218] Deleted tp-dev/to_process/Sample report (986).json from tp-report-summary
+
+I0719 02:04:49.028048 281472819965984 AI_03_Gemini_M4.py:73] Lock released.
+I0719 02:04:49.028187 281472819965984 AI_03_Gemini_M4.py:563] Script execution finished.
+
+[ec2-user@ip-10-0-17-214 gen-ai]$
+
+
+
+
+
+===============================================================================================================================
+FORTH SESSION (NEW INSTANCES) Normal Log
+===============================================================================================================================
+
+/bin/bash
+cd ~
+sh-5.2$ /bin/bash
+[ubuntu@ip-10-0-17-214 bin]$ cd ~
+[ubuntu@ip-10-0-17-214 ~]$ sudo su - ec2-user
+[sudo] password for ubuntu:
+Last login: Fri Jul 19 01:13:13 UTC 2024 on pts/2
+[ec2-user@ip-10-0-17-214 ~]$ cd gen-ai/
+[ec2-user@ip-10-0-17-214 gen-ai]$ cat tp-report-summary.log
+2024-07-19 01:19:15,838 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:19:16,040 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:19:16,067 - INFO - Lock acquired.
+2024-07-19 01:19:16,110 - INFO - Lock released.
+2024-07-19 01:19:16,110 - INFO - No files found in bucket. Exiting program.
+2024-07-19 01:19:16,129 - INFO - Lock released.
+2024-07-19 01:19:16,130 - INFO - Script execution finished.
+
+2024-07-19 01:22:07,891 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:22:08,072 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:22:08,098 - INFO - Lock acquired.
+2024-07-19 01:22:08,125 - INFO - Files found in bucket. Proceeding with processing.
+
+2024-07-19 01:22:08,160 - INFO - Reading file 1: tp-dev/to_process/Sample report (691).json...
+2024-07-19 01:23:19,209 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (691)_ExecRep_20240719_012319.json
+2024-07-19 01:23:19,235 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (691)_InApp_20240719_012319.json
+2024-07-19 01:23:19,266 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (691)_Email_20240719_012319.json
+2024-07-19 01:23:19,311 - INFO - Copied tp-dev/to_process/Sample report (691).json to tp-dev/processed_files/Successful/Sample report (691).json
+2024-07-19 01:23:19,347 - INFO - Deleted tp-dev/to_process/Sample report (691).json from tp-report-summary
+
+2024-07-19 01:23:19,397 - INFO - Reading file 2: tp-dev/to_process/Sample report (708).json...
+2024-07-19 01:25:02,975 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (708)_ExecRep_20240719_012502.json
+2024-07-19 01:25:03,003 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (708)_InApp_20240719_012502.json
+2024-07-19 01:25:03,033 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (708)_Email_20240719_012502.json
+2024-07-19 01:25:03,107 - INFO - Copied tp-dev/to_process/Sample report (708).json to tp-dev/processed_files/Successful/Sample report (708).json
+2024-07-19 01:25:03,140 - INFO - Deleted tp-dev/to_process/Sample report (708).json from tp-report-summary
+
+2024-07-19 01:25:03,175 - INFO - Reading file 3: tp-dev/to_process/Sample report (737).json...
+2024-07-19 01:26:08,524 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (737)_ExecRep_20240719_012608.json
+2024-07-19 01:26:08,546 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (737)_InApp_20240719_012608.json
+2024-07-19 01:26:08,575 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (737)_Email_20240719_012608.json
+2024-07-19 01:26:08,654 - INFO - Copied tp-dev/to_process/Sample report (737).json to tp-dev/processed_files/Successful/Sample report (737).json
+2024-07-19 01:26:08,683 - INFO - Deleted tp-dev/to_process/Sample report (737).json from tp-report-summary
+
+2024-07-19 01:26:08,724 - INFO - Reading file 4: tp-dev/to_process/Sample report (783).json...
+2024-07-19 01:28:05,341 - INFO - Lock released.
+2024-07-19 01:28:05,341 - INFO - Script execution finished.
+
+2024-07-19 01:30:00,638 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:30:00,896 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:30:00,920 - INFO - Lock acquired.
+2024-07-19 01:30:00,947 - INFO - Files found in bucket. Proceeding with processing.
+
+2024-07-19 01:30:00,983 - INFO - Reading file 1: tp-dev/to_process/Sample report (728).json...
+2024-07-19 01:31:22,378 - INFO - Lock released.
+2024-07-19 01:31:22,378 - INFO - Script execution finished.
+
+2024-07-19 01:39:31,843 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:39:32,017 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:39:32,041 - INFO - Lock acquired.
+2024-07-19 01:39:32,064 - INFO - Files found in bucket. Proceeding with processing.
+
+2024-07-19 01:39:32,104 - INFO - Reading file 1: tp-dev/to_process/Sample report (728).json...
+2024-07-19 01:41:39,525 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (728)_ExecRep_20240719_014139.json
+2024-07-19 01:41:39,558 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (728)_InApp_20240719_014139.json
+2024-07-19 01:41:39,918 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (728)_Email_20240719_014139.json
+2024-07-19 01:41:40,002 - INFO - Copied tp-dev/to_process/Sample report (728).json to tp-dev/processed_files/Successful/Sample report (728).json
+2024-07-19 01:41:40,071 - INFO - Deleted tp-dev/to_process/Sample report (728).json from tp-report-summary
+
+2024-07-19 01:41:40,122 - INFO - Reading file 2: tp-dev/to_process/Sample report (783).json...
+2024-07-19 01:42:51,398 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (783)_ExecRep_20240719_014251.json
+2024-07-19 01:42:51,425 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (783)_InApp_20240719_014251.json
+2024-07-19 01:42:51,450 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (783)_Email_20240719_014251.json
+2024-07-19 01:42:51,520 - INFO - Copied tp-dev/to_process/Sample report (783).json to tp-dev/processed_files/Successful/Sample report (783).json
+2024-07-19 01:42:51,554 - INFO - Deleted tp-dev/to_process/Sample report (783).json from tp-report-summary
+
+2024-07-19 01:42:51,594 - INFO - Reading file 3: tp-dev/to_process/Sample report (795).json...
+2024-07-19 01:44:20,519 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (795)_ExecRep_20240719_014420.json
+2024-07-19 01:44:20,555 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (795)_InApp_20240719_014420.json
+2024-07-19 01:44:20,583 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (795)_Email_20240719_014420.json
+2024-07-19 01:44:20,680 - INFO - Copied tp-dev/to_process/Sample report (795).json to tp-dev/processed_files/Successful/Sample report (795).json
+2024-07-19 01:44:20,712 - INFO - Deleted tp-dev/to_process/Sample report (795).json from tp-report-summary
+
+2024-07-19 01:44:20,770 - INFO - Reading file 4: tp-dev/to_process/Sample report (800).json...
+2024-07-19 01:45:31,794 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (800)_ExecRep_20240719_014531.json
+2024-07-19 01:45:31,819 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (800)_InApp_20240719_014531.json
+2024-07-19 01:45:31,843 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (800)_Email_20240719_014531.json
+2024-07-19 01:45:31,945 - INFO - Copied tp-dev/to_process/Sample report (800).json to tp-dev/processed_files/Successful/Sample report (800).json
+2024-07-19 01:45:31,977 - INFO - Deleted tp-dev/to_process/Sample report (800).json from tp-report-summary
+
+2024-07-19 01:45:32,028 - INFO - Reading file 5: tp-dev/to_process/Sample report (890).json...
+2024-07-19 01:45:38,745 - INFO - Lock released.
+2024-07-19 01:45:38,745 - INFO - Script execution finished.
+
+[ec2-user@ip-10-0-17-214 gen-ai]$ cat tp-report-summary.log
+2024-07-19 01:19:15,838 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:19:16,040 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:19:16,067 - INFO - Lock acquired.
+2024-07-19 01:19:16,110 - INFO - Lock released.
+2024-07-19 01:19:16,110 - INFO - No files found in bucket. Exiting program.
+2024-07-19 01:19:16,129 - INFO - Lock released.
+2024-07-19 01:19:16,130 - INFO - Script execution finished.
+
+2024-07-19 01:22:07,891 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:22:08,072 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:22:08,098 - INFO - Lock acquired.
+2024-07-19 01:22:08,125 - INFO - Files found in bucket. Proceeding with processing.
+
+2024-07-19 01:22:08,160 - INFO - Reading file 1: tp-dev/to_process/Sample report (691).json...
+2024-07-19 01:23:19,209 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (691)_ExecRep_20240719_012319.json
+2024-07-19 01:23:19,235 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (691)_InApp_20240719_012319.json
+2024-07-19 01:23:19,266 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (691)_Email_20240719_012319.json
+2024-07-19 01:23:19,311 - INFO - Copied tp-dev/to_process/Sample report (691).json to tp-dev/processed_files/Successful/Sample report (691).json
+2024-07-19 01:23:19,347 - INFO - Deleted tp-dev/to_process/Sample report (691).json from tp-report-summary
+
+2024-07-19 01:23:19,397 - INFO - Reading file 2: tp-dev/to_process/Sample report (708).json...
+2024-07-19 01:25:02,975 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (708)_ExecRep_20240719_012502.json
+2024-07-19 01:25:03,003 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (708)_InApp_20240719_012502.json
+2024-07-19 01:25:03,033 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (708)_Email_20240719_012502.json
+2024-07-19 01:25:03,107 - INFO - Copied tp-dev/to_process/Sample report (708).json to tp-dev/processed_files/Successful/Sample report (708).json
+2024-07-19 01:25:03,140 - INFO - Deleted tp-dev/to_process/Sample report (708).json from tp-report-summary
+
+2024-07-19 01:25:03,175 - INFO - Reading file 3: tp-dev/to_process/Sample report (737).json...
+2024-07-19 01:26:08,524 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (737)_ExecRep_20240719_012608.json
+2024-07-19 01:26:08,546 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (737)_InApp_20240719_012608.json
+2024-07-19 01:26:08,575 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (737)_Email_20240719_012608.json
+2024-07-19 01:26:08,654 - INFO - Copied tp-dev/to_process/Sample report (737).json to tp-dev/processed_files/Successful/Sample report (737).json
+2024-07-19 01:26:08,683 - INFO - Deleted tp-dev/to_process/Sample report (737).json from tp-report-summary
+
+2024-07-19 01:26:08,724 - INFO - Reading file 4: tp-dev/to_process/Sample report (783).json...
+2024-07-19 01:28:05,341 - INFO - Lock released.
+2024-07-19 01:28:05,341 - INFO - Script execution finished.
+
+2024-07-19 01:30:00,638 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:30:00,896 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:30:00,920 - INFO - Lock acquired.
+2024-07-19 01:30:00,947 - INFO - Files found in bucket. Proceeding with processing.
+
+2024-07-19 01:30:00,983 - INFO - Reading file 1: tp-dev/to_process/Sample report (728).json...
+2024-07-19 01:31:22,378 - INFO - Lock released.
+2024-07-19 01:31:22,378 - INFO - Script execution finished.
+
+2024-07-19 01:39:31,843 - INFO - Found credentials from IAM Role: AmazonSSMRoleForInstancesQuickSetup
+2024-07-19 01:39:32,017 - INFO - Bucket is not locked. Continue.
+2024-07-19 01:39:32,041 - INFO - Lock acquired.
+2024-07-19 01:39:32,064 - INFO - Files found in bucket. Proceeding with processing.
+
+2024-07-19 01:39:32,104 - INFO - Reading file 1: tp-dev/to_process/Sample report (728).json...
+2024-07-19 01:41:39,525 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (728)_ExecRep_20240719_014139.json
+2024-07-19 01:41:39,558 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (728)_InApp_20240719_014139.json
+2024-07-19 01:41:39,918 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (728)_Email_20240719_014139.json
+2024-07-19 01:41:40,002 - INFO - Copied tp-dev/to_process/Sample report (728).json to tp-dev/processed_files/Successful/Sample report (728).json
+2024-07-19 01:41:40,071 - INFO - Deleted tp-dev/to_process/Sample report (728).json from tp-report-summary
+
+2024-07-19 01:41:40,122 - INFO - Reading file 2: tp-dev/to_process/Sample report (783).json...
+2024-07-19 01:42:51,398 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (783)_ExecRep_20240719_014251.json
+2024-07-19 01:42:51,425 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (783)_InApp_20240719_014251.json
+2024-07-19 01:42:51,450 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (783)_Email_20240719_014251.json
+2024-07-19 01:42:51,520 - INFO - Copied tp-dev/to_process/Sample report (783).json to tp-dev/processed_files/Successful/Sample report (783).json
+2024-07-19 01:42:51,554 - INFO - Deleted tp-dev/to_process/Sample report (783).json from tp-report-summary
+
+2024-07-19 01:42:51,594 - INFO - Reading file 3: tp-dev/to_process/Sample report (795).json...
+2024-07-19 01:44:20,519 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (795)_ExecRep_20240719_014420.json
+2024-07-19 01:44:20,555 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (795)_InApp_20240719_014420.json
+2024-07-19 01:44:20,583 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (795)_Email_20240719_014420.json
+2024-07-19 01:44:20,680 - INFO - Copied tp-dev/to_process/Sample report (795).json to tp-dev/processed_files/Successful/Sample report (795).json
+2024-07-19 01:44:20,712 - INFO - Deleted tp-dev/to_process/Sample report (795).json from tp-report-summary
+
+2024-07-19 01:44:20,770 - INFO - Reading file 4: tp-dev/to_process/Sample report (800).json...
+2024-07-19 01:45:31,794 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_ExecutiveReport/Sample report (800)_ExecRep_20240719_014531.json
+2024-07-19 01:45:31,819 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_InApp/Sample report (800)_InApp_20240719_014531.json
+2024-07-19 01:45:31,843 - INFO - Uploaded JSON to S3: s3://tp-report-summary/tp-dev/output/JSON_Email/Sample report (800)_Email_20240719_014531.json
+2024-07-19 01:45:31,945 - INFO - Copied tp-dev/to_process/Sample report (800).json to tp-dev/processed_files/Successful/Sample report (800).json
+2024-07-19 01:45:31,977 - INFO - Deleted tp-dev/to_process/Sample report (800).json from tp-report-summary
+
+2024-07-19 01:45:32,028 - INFO - Reading file 5: tp-dev/to_process/Sample report (890).json...
+2024-07-19 01:45:38,745 - INFO - Lock released.
+2024-07-19 01:45:38,745 - INFO - Script execution finished.
+
+[ec2-user@ip-10-0-17-214 gen-ai]$ 
+
+
+
+Ask Prem for 1000 real report
+when can he provide 
+Extensive Reruitment Report Only
