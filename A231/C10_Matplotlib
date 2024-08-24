@@ -1,0 +1,53 @@
+import matplotlib.pyplot as plt
+
+
+# Data to plot
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+# Create the plot
+plt.plot(x, y, color='red',
+linestyle='-', marker='x')
+# Show the plot
+plt.show()
+
+
+
+# Data to plot
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+# Create the plot
+plt.scatter(x, y)
+# Show the plot
+plt.show()
+
+import numpy as np
+# Generate random data
+num_points = 50
+x = np.random.uniform(0, 10, num_points)
+y = np.random.uniform(0, 10, num_points)
+colors = np.random.uniform(0, 1,
+num_points)
+# Create the plot
+plt.scatter(x, y, s=100, c=colors,
+marker='o')
+# Show the plot
+plt.show()
+
+
+
+# Generate random data
+num_points = 50
+x = np.random.uniform(0, 10, num_points)
+y = 3 * x + np.random.normal(0, 2,
+num_points)
+# Fit a linear model
+coeffs = np.polyfit(x, y, 1)
+poly_model = np.poly1d(coeffs)
+# Create the scatter plot
+plt.scatter(x, y, s=50)
+# Plot the regression line
+x_line = np.linspace(x.min(), x.max(), 100)
+y_line = poly_model(x_line)
+plt.plot(x_line, y_line, 'r--')
+# Show the plot
+plt.show()
